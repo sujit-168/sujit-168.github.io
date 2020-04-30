@@ -24,9 +24,9 @@
     <title>我的博客创建之路</title>
     <url>/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/</url>
     <content><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-1"><a href="#教你免费搭建个人博客-Hexo-amp-Github-1" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  1"></a>教你免费搭建个人博客(Hexo&amp;Github)  1</h1><p>​      在基本完成搭建自己博客的过程中，花费了一天时间看各种教程，试图并从中找出搭建博客的最优办法。在一天半的时间里，通过在与各种ERROE的角逐中不断取胜，共计花费60小时成功创建了自己的第一个博客。</p>
-<h3 id="准备工作（搭建Blog基础框架）："><a href="#准备工作（搭建Blog基础框架）：" class="headerlink" title="准备工作（搭建Blog基础框架）："></a>准备工作（搭建Blog基础框架）：</h3><p>Hexo基于Node.js，在搭建过程中还需要安装npm和git,安装Node.js和Git构建本地环境。</p>
-<a id="more"></a>
+<h3 id="在本文中主要介绍博客基础框架的搭建"><a href="#在本文中主要介绍博客基础框架的搭建" class="headerlink" title="在本文中主要介绍博客基础框架的搭建"></a>在本文中主要介绍博客基础框架的搭建</h3><a id="more"></a>
 
+<h3 id="准备工作（搭建Blog基础框架）："><a href="#准备工作（搭建Blog基础框架）：" class="headerlink" title="准备工作（搭建Blog基础框架）："></a>准备工作（搭建Blog基础框架）：</h3><p>Hexo基于Node.js，在搭建过程中还需要安装npm和git,安装Node.js和Git构建本地环境。</p>
 <h5 id="1-Node-js安装："><a href="#1-Node-js安装：" class="headerlink" title="1.Node.js安装："></a>1.Node.js安装：</h5><p>Node.js官网：<a href="http://nodejs.org/zh-cn/" target="_blank" rel="noopener">http://nodejs.org/zh-cn/</a></p>
 <p>进入官网后下载Windows（x64）长期支持版。</p>
 <img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/node.js1.png" class="" title="This is an image">
@@ -204,51 +204,71 @@
       </tags>
   </entry>
   <entry>
-    <title>我的博客创建之路2</title>
+    <title>我的博客创建之路</title>
     <url>/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</url>
     <content><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-2"><a href="#教你免费搭建个人博客-Hexo-amp-Github-2" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  2"></a>教你免费搭建个人博客(Hexo&amp;Github)  2</h1><p>上一期教程我们已经搭建好Blog的基础框架，准备工作应该进行得很顺利，在接下来的基础框架完善中，小编会分为两个部分：</p>
-<h3 id="博客框架功能的构建和博客框架功能的美化，在本文中主要介绍博客框架功能的构建。"><a href="#博客框架功能的构建和博客框架功能的美化，在本文中主要介绍博客框架功能的构建。" class="headerlink" title="博客框架功能的构建和博客框架功能的美化，在本文中主要介绍博客框架功能的构建。"></a>博客框架功能的构建和博客框架功能的美化，在本文中主要介绍博客框架功能的构建。</h3><a id="more"></a>
+<h3 id="在本文中主要介绍博客基础功能的构建"><a href="#在本文中主要介绍博客基础功能的构建" class="headerlink" title="在本文中主要介绍博客基础功能的构建"></a>在本文中主要介绍博客基础功能的构建</h3><a id="more"></a>
 
 <p>首先，在你电脑空间多的地方创建一个存放博客程序，主题和文章的文件夹，可以起名为Blog，</p>
-<p>切记文件路径中最好不要有中文。建好之后打开文件夹Blog，鼠标右击，选择【Git Bash Here】</p>
-<p>进入Git命令行窗口。</p>
+<p>记住文件路径中最好不要有中文。</p>
 <img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+
+<p>建好之后打开文件夹Blog，鼠标右击，选择【Git Bash Here】进入Git命令行窗口。</p>
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/Git%E5%91%BD%E4%BB%A4.jpg" class="" title="This is an image">
 
 <p>输入以下代码使用npm安装Hexo博客程序</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
-<p>如果出现报错，请输入下面这段的代码</p>
+<p>如果出现报错</p>
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-error1.jpg" class="" title="This is an image">
+
+<p>请输入下面这段的代码</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-success.jpg" class="" title="This is an image">
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-cnpm.jpg" class="" title="This is an image">
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">echo &quot;# yourname.github.io&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;yourname&#x2F;yourname.github.io.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-init.jpg" class="" title="This is an image">
+
+
+
 <img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
 
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm clean cache --froce</span><br><span class="line">npm install --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm clean </span><br><span class="line">npm install --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-clean.jpg" class="" title="This is an image">
+
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-clean.jpg" class="" title="This is an image">
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install gulp -g</span><br><span class="line">npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --save</span><br></pre></td></tr></table></figure>
 
 <img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
 
+<p>如果执行hexo d命令出现下图错误</p>
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-error.jpg" class="" title="This is an image">
+
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-deployer-git</span><br><span class="line">npm install -- save hexo-deployer-git</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/error-saving.jpg" class="" title="This is an image">
 
 
 
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-deployer-git.jpg" class="" title="This is an image">
 
+<p>问题解决</p>
+<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-success.jpg" class="" title="This is an image">
 
+<p>最后小编列举一些博客常用命令</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean  清除静态缓存</span><br><span class="line">hexo g      生成博客文章</span><br><span class="line">hexo s      生成页面进行本地预览</span><br><span class="line">hexo d      部署博客文章</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">]]></content>
+<h3 id="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位博客大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位博客大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位博客大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位博客大佬的经验进行借鉴和吸收)</h3>]]></content>
       <tags>
         <tag>hexo+yilia</tag>
       </tags>

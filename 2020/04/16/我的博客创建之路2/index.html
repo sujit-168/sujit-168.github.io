@@ -549,7 +549,7 @@
     var gitment = new Gitment({
       id: "20200416132224",
       owner: 'sujit-168',
-      repo: 'yilia-plus-comments',
+      repo: 'https://sujit-168.github.io/',
       oauth: {
         client_id: '938ba641429b996a9cf5',
         client_secret: '751684c1fd722d2a14dc08ebef20eec14de9fd41',
@@ -914,6 +914,16 @@
 </script>
 
   
+  
+  <script type="text/javascript" src="/lib/snow.js"></script>
+  <script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>
+  <script>
+    snow.down();
+    $(window).resize(function() {
+      $("canvas").css("z-index","500").remove();
+      snow.down();
+    });
+  </script>
   
 </body>
 

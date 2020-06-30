@@ -17,18 +17,9 @@
 <meta property="og:site_name" content="技术小杰的博客">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="article:published_time" content="2020-04-10T13:45:52.590Z">
-<meta property="article:modified_time" content="2020-04-30T09:16:13.707Z">
+<meta property="article:modified_time" content="2020-06-30T13:08:05.648Z">
 <meta property="article:author" content="小杰">
-<meta property="article:tag" content="前端">
-<meta property="article:tag" content="Python">
-<meta property="article:tag" content="C&#x2F;C++">
-<meta property="article:tag" content="Blog">
-<meta property="article:tag" content="单片机">
-<meta property="article:tag" content="MATLAB">
-<meta property="article:tag" content="网络安全">
-<meta property="article:tag" content="四旋翼飞行器">
-<meta property="article:tag" content="TensorFlow">
-<meta property="article:tag" content="姿态解算和控制结算等....">
+<meta property="article:tag" content="first">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="技术小杰的博客" type="application/atom+xml">
@@ -86,13 +77,13 @@
 			
 				<li><a href="/" target="_blank">主页</a></li>
 			
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/" target="_blank">随笔</a></li>
+				<li><a href="/tags" target="_blank">随笔</a></li>
 			
-				<li><a href="/" target="_blank">分类</a></li>
+				<li><a href="/categories" target="_blank">分类</a></li>
 			
-				<li><a href="/" target="_blank">相册</a></li>
+				<li><a href="/logs" target="_blank">日志</a></li>
 			
-				<li><a href="/" target="_blank">资料</a></li>
+				<li><a href="/download" target="_blank">下载</a></li>
 			
 			</ul>
 		</nav>
@@ -190,13 +181,13 @@
 				
 					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 20%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 20%"><a href="/tags">随笔</a></li>
 		        
-					<li style="width: 20%"><a href="/">分类</a></li>
+					<li style="width: 20%"><a href="/categories">分类</a></li>
 		        
-					<li style="width: 20%"><a href="/">相册</a></li>
+					<li style="width: 20%"><a href="/logs">日志</a></li>
 		        
-					<li style="width: 20%"><a href="/">资料</a></li>
+					<li style="width: 20%"><a href="/download">下载</a></li>
 		        
 				</ul>
 			</nav>
@@ -343,7 +334,29 @@
   <div class="article-info article-info-index">
     
     
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">first</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
     
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/first//" class="article-tag-list-link color1">first</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
     
 
@@ -535,10 +548,10 @@
   var titleTime;
   document.addEventListener("visibilitychange", function () {
     if (document.hidden) {
-      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+      document.title = "" + originTitle;
       clearTimeout(titleTime);
     } else {
-      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+      document.title = "" + originTitle;
       titleTime = setTimeout(function () {
         document.title = originTitle;
       }, 2000);
@@ -599,6 +612,10 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">first</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">hexo+yilia</a>
               </li>
             
@@ -651,7 +668,7 @@
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="https://sujit-168.github.io/" target="_blank" class="search-title" title="记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析">
+              <a href="https://sujit-168.github.io/" target="_blank" class="search-title" title="记录工作和学习过程中的笔记：前端,Python,C/C++,Linux,Blog,单片机,MATLAB,网络安全,四旋翼飞行器">
                 
                   <img src="https://sujit-168.github.io//img/favicon.ico">
                 

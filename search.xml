@@ -65,12 +65,16 @@
           
           <category> first </category>
           
+          <category> page </category>
+          
       </categories>
       
       
         <tags>
             
             <tag> first </tag>
+            
+            <tag> page </tag>
             
         </tags>
       

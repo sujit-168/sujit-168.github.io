@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://sujit-168.github.io/anires/index.html</loc>
+    <loc>https://sujit-168.github.io/anires/package.json</loc>
     
     <lastmod>2019-07-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sujit-168.github.io/anires/package.json</loc>
+    <loc>https://sujit-168.github.io/anires/index.html</loc>
     
     <lastmod>2019-07-19</lastmod>
     
@@ -130,7 +130,7 @@
 
   <url>
     <loc>https://sujit-168.github.io/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,56 +138,56 @@
   
   <url>
     <loc>https://sujit-168.github.io/tags/first/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/page/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/hexo/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/github/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/yilia/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/ubuntu16-04/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/tags/ROS-kinetic/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -196,56 +196,56 @@
   
   <url>
     <loc>https://sujit-168.github.io/categories/first/</loc>
-    <lastmod>2021-01-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sujit-168.github.io/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2021-01-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sujit-168.github.io/categories/hexo/</loc>
-    <lastmod>2021-01-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sujit-168.github.io/categories/ubuntu16-04/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/categories/first/page/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sujit-168.github.io/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sujit-168.github.io/categories/hexo/</loc>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sujit-168.github.io/categories/ubuntu16-04/</loc>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/categories/hexo/github/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/categories/hexo/yilia/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sujit-168.github.io/categories/ubuntu16-04/ROS-kinetic/</loc>
-    <lastmod>2021-01-16</lastmod>
+    <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

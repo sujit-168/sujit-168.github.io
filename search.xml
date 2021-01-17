@@ -1,437 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/08/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
-
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>对于一些不可复制文档的操作技巧</title>
+      <link href="2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+      <url>2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="对于一些不可复制文档的操作技巧"><a href="#对于一些不可复制文档的操作技巧" class="headerlink" title="对于一些不可复制文档的操作技巧"></a>对于一些不可复制文档的操作技巧</h1><h1 id="背景介绍："><a href="#背景介绍：" class="headerlink" title="背景介绍："></a>背景介绍：</h1><p>如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的，或许接下来的内容会对你很有帮助。</p><a id="more"></a><h1 id="项目场景："><a href="#项目场景：" class="headerlink" title="项目场景："></a>项目场景：</h1><p><font color=#999AAA >项目场景：如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的。</font></p><h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p><font color=#999AAA >提示：提示需要登录或付费才能下载该内容，如下图所示。</font></p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/1.jpg" class="" title="This is an image"><h1 id="原因分析："><a href="#原因分析：" class="headerlink" title="原因分析："></a>原因分析：</h1><p><font color=#999AAA >提示：</font></p><p>近年来互联网企业对文章的版权重视和自身盈利模式的需要共同影响。</p><h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1><p><strong>方案1</strong><br>以一篇英语四级作文模板为例，<br>1.首先寻找好你所需要的模板内容<br>2.确保将网页展开完全<br>3.单击鼠标右键，将网页保存在桌面上</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/2.jpg" class="" title="This is an image"><p>4.在桌面上双击以.html结尾的文件，将会在浏览器中打开它</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/3.jpg" class="" title="This is an image"><p>5.在浏览器中，你会发现对页面上的文字进行复制是完全可行的。</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/4.jpg" class="" title="This is an image"><p>6.先不要太高兴，在桌面上新建一个.txt文件，将复制来的文本内容粘贴进去。</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" class="" title="This is an image"><p>7.查看文本内容中是否有乱码，没有问题后</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" class="" title="This is an image"><p>对.txt文档内进行Ctrl+A 及Ctrl+C操作</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/6.jpg" class="" title="This is an image"><p>8.然后在将其粘贴在自己需要的文本格式中，如.doc/docx文档中。</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/7.jpg" class="" title="This is an image"><p>7-8步骤也可使用无格式粘贴</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/12.jpg" class="" title="This is an image"><p><strong>方案2</strong><br>选择好自己需要的文字内容，右击选择检查或者按下键盘的F12键，</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/8.jpg" class="" title="This is an image"><p>找到设置，然后滑到底部，找到Disable javascript进行勾选</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/9.jpg" class="" title="This is an image"><p>然后不要关闭页面，直接对需要内容进行复制即可。</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/10.jpg" class="" title="This is an image"><p>在双击打开，接下来就可以随意进行复制了</p><img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/11.jpg" class="" title="This is an image"><p><font color=#999AAA >   </font></p><h3 id="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
       <categories>
-        <category>first</category>
-        <category>page</category>
+          
+          <category> 操作技巧 </category>
+          
       </categories>
-      <tags>
-        <tag>first</tag>
-        <tag>page</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对于一些不可复制文档的操作技巧</title>
-    <url>/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h1 id="对于一些不可复制文档的操作技巧"><a href="#对于一些不可复制文档的操作技巧" class="headerlink" title="对于一些不可复制文档的操作技巧"></a>对于一些不可复制文档的操作技巧</h1><h1 id="背景介绍："><a href="#背景介绍：" class="headerlink" title="背景介绍："></a>背景介绍：</h1><p>如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的，或许接下来的内容会对你很有帮助。</p>
-<a id="more"></a>
-
-<h1 id="项目场景："><a href="#项目场景：" class="headerlink" title="项目场景："></a>项目场景：</h1><p><font color=#999AAA >项目场景：如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的。</font></p>
-<h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p><font color=#999AAA >提示：提示需要登录或付费才能下载该内容，如下图所示。</font></p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/1.jpg" class="" title="This is an image">
-
-
-<h1 id="原因分析："><a href="#原因分析：" class="headerlink" title="原因分析："></a>原因分析：</h1><p><font color=#999AAA >提示：</font></p>
-<p>近年来互联网企业对文章的版权重视和自身盈利模式的需要共同影响。</p>
-<h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1><p><strong>方案1</strong><br>以一篇英语四级作文模板为例，<br>1.首先寻找好你所需要的模板内容<br>2.确保将网页展开完全<br>3.单击鼠标右键，将网页保存在桌面上</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/2.jpg" class="" title="This is an image">
-
-<p>4.在桌面上双击以.html结尾的文件，将会在浏览器中打开它</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/3.jpg" class="" title="This is an image">
-
-<p>5.在浏览器中，你会发现对页面上的文字进行复制是完全可行的。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/4.jpg" class="" title="This is an image">
-
-<p>6.先不要太高兴，在桌面上新建一个.txt文件，将复制来的文本内容粘贴进去。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" class="" title="This is an image">
-
-<p>7.查看文本内容中是否有乱码，没有问题后</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" class="" title="This is an image">
-
-<p>对.txt文档内进行Ctrl+A 及Ctrl+C操作</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/6.jpg" class="" title="This is an image">
-
-<p>8.然后在将其粘贴在自己需要的文本格式中，如.doc/docx文档中。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/7.jpg" class="" title="This is an image">
-
-<p>7-8步骤也可使用无格式粘贴</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/12.jpg" class="" title="This is an image">
-
-<p><strong>方案2</strong><br>选择好自己需要的文字内容，右击选择检查或者按下键盘的F12键，</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/8.jpg" class="" title="This is an image">
-
-<p>找到设置，然后滑到底部，找到Disable javascript进行勾选</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/9.jpg" class="" title="This is an image">
-
-<p>然后不要关闭页面，直接对需要内容进行复制即可。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/10.jpg" class="" title="This is an image">
-
-<p>在双击打开，接下来就可以随意进行复制了</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/11.jpg" class="" title="This is an image">
-
-<p><font color=#999AAA >   </font></p>
-<h3 id="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程小编会经常更新各种操作技巧。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 操作技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>虚拟机ubuntu16.04与ROS-kinetic</title>
+      <link href="2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/"/>
+      <url>2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/</url>
+      
+        <content type="html"><![CDATA[<h1 id="虚拟机ubuntu16-04与ROS-kinetic的安装"><a href="#虚拟机ubuntu16-04与ROS-kinetic的安装" class="headerlink" title="虚拟机ubuntu16.04与ROS-kinetic的安装"></a>虚拟机ubuntu16.04与ROS-kinetic的安装</h1><h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>​        最近由于要做的一个项目涉及到ROS与机器视觉以及一些SLAM技术，所以学习了一下机器人操作系统ROS在ubuntu上的安装，由于开始时经验不足，为了能有更高的容错率，我选择在Virtual Box上安装Ubuntu16.04虚拟机，得益于虚拟机可以轻松进行备份和恢复的优势，我在进行Ros的安装时更有信心。</p><a id="more"></a><h3 id="本机环境"><a href="#本机环境" class="headerlink" title="本机环境"></a>本机环境</h3><p>​        Windows10家庭版 + Ubuntu16.04虚拟机 + ROS kinetic</p><h2 id="安装流程-虚拟机-Ubuntu安装教程"><a href="#安装流程-虚拟机-Ubuntu安装教程" class="headerlink" title="安装流程   虚拟机+Ubuntu安装教程"></a>安装流程   虚拟机+Ubuntu安装教程</h2><h4 id="方案1-VMware虚拟机安装ubuntu16-04"><a href="#方案1-VMware虚拟机安装ubuntu16-04" class="headerlink" title="方案1.VMware虚拟机安装ubuntu16.04"></a>方案1.VMware虚拟机安装ubuntu16.04</h4><p>可以参考火耳软件安装的</p><h4 id="方案2-Virtual-Box虚拟机安装ubuntu16-04"><a href="#方案2-Virtual-Box虚拟机安装ubuntu16-04" class="headerlink" title="方案2.Virtual Box虚拟机安装ubuntu16.04"></a>方案2.Virtual Box虚拟机安装ubuntu16.04</h4><p>可以参考博客园上的</p><h2 id="安装流程-ubuntu16-04-ROS（kentic）"><a href="#安装流程-ubuntu16-04-ROS（kentic）" class="headerlink" title="安装流程     ubuntu16.04+ROS（kentic）"></a>安装流程     ubuntu16.04+ROS（kentic）</h2><h4 id="1-注意对应好版本"><a href="#1-注意对应好版本" class="headerlink" title="1.注意对应好版本"></a>1.注意对应好版本</h4><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/ROS_Installation_Options.jpg" class="" title="This is an image"><h4 id="2-配置软件源"><a href="#2-配置软件源" class="headerlink" title="2.配置软件源"></a>2.配置软件源</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c &#39;echo &quot;deb http:&#x2F;&#x2F;packages.ros.org&#x2F;ros&#x2F;ubuntu $(lsb_release -sc) main&quot; &gt; &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;ros-latest.list&#39;</span><br></pre></td></tr></table></figure><p>使用alinyun镜像源即可</p><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/apply_install_sources.jpg" class="" title="This is an image"><h4 id="3-添加密钥"><a href="#3-添加密钥" class="headerlink" title="3.添加密钥"></a>3.添加密钥</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-key adv --keyserver &#39;hkp:&#x2F;&#x2F;keyserver.ubuntu.com:80&#39; --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</span><br></pre></td></tr></table></figure><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/add_key.jpg" class="" title="This is an image"><h4 id="4-安装ROS（桌面完整版Desktop-Full）"><a href="#4-安装ROS（桌面完整版Desktop-Full）" class="headerlink" title="4.安装ROS（桌面完整版Desktop-Full）"></a>4.安装ROS（桌面完整版Desktop-Full）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install ros-melodic-desktop-full</span><br></pre></td></tr></table></figure><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full1.jpg" class="" title="This is an image"><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full11.jpg" class="" title="This is an image"><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full2.jpg" class="" title="This is an image"><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full3.jpg" class="" title="This is an image"><p>独立功能包的安装，其中PACKAGE代表功能包的名称</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install ros-melodic-PACKAGE</span><br></pre></td></tr></table></figure><p>例如安装机器人SLAM地图建模gmapping功能包时，可以使用以下命令进行安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install ros-melodic-slam-gmapping</span><br></pre></td></tr></table></figure><h4 id="5-初始化ROS"><a href="#5-初始化ROS" class="headerlink" title="5.初始化ROS"></a>5.初始化ROS</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rosdep init</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rosdep update</span><br></pre></td></tr></table></figure><p>如遇到问题，可以参考</p><h4 id="6-配置环境变量"><a href="#6-配置环境变量" class="headerlink" title="6.配置环境变量"></a>6.配置环境变量</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;source &#x2F;opt&#x2F;ros&#x2F;kinetic&#x2F;setup.bash&quot; &gt;&gt; ~&#x2F;.bashrc</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~&#x2F;.bashrc</span><br></pre></td></tr></table></figure><h4 id="7-安装完成检测"><a href="#7-安装完成检测" class="headerlink" title="7.安装完成检测"></a>7.安装完成检测</h4><p>打开terminal输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">roscore</span><br></pre></td></tr></table></figure><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/roscore.jpg" class="" title="This is an image"><h3 id="OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
       <categories>
-        <category>操作技巧</category>
+          
+          <category> ubuntu16.04 </category>
+          
+          <category> ROS-kinetic </category>
+          
       </categories>
-      <tags>
-        <tag>操作技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的博客创建之路</title>
-    <url>/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/</url>
-    <content><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-1"><a href="#教你免费搭建个人博客-Hexo-amp-Github-1" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  1"></a>教你免费搭建个人博客(Hexo&amp;Github)  1</h1><p>​      在基本完成搭建自己博客的过程中，花费了一天时间看各种教程，试图并从中找出搭建博客的最优办法。在一天半的时间里，通过在与各种ERROE的角逐中不断取胜，共计花费60小时成功创建了自己的第一个博客。</p>
-<h3 id="在本文中主要介绍博客基础框架的搭建"><a href="#在本文中主要介绍博客基础框架的搭建" class="headerlink" title="在本文中主要介绍博客基础框架的搭建"></a>在本文中主要介绍博客基础框架的搭建</h3><a id="more"></a>
-
-<h3 id="准备工作（搭建Blog基础框架）："><a href="#准备工作（搭建Blog基础框架）：" class="headerlink" title="准备工作（搭建Blog基础框架）："></a>准备工作（搭建Blog基础框架）：</h3><p>Hexo基于Node.js，在搭建过程中还需要安装npm和git,安装Node.js和Git构建本地环境。</p>
-<h5 id="1-Node-js安装："><a href="#1-Node-js安装：" class="headerlink" title="1.Node.js安装："></a>1.Node.js安装：</h5><p>Node.js官网：<a href="http://nodejs.org/zh-cn/" target="_blank" rel="noopener">http://nodejs.org/zh-cn/</a></p>
-<p>进入官网后下载Windows（x64）长期支持版。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/node.js1.png" class="" title="This is an image">
-
-
-
-<p>安装位置最好选择默认，其他均选择默认，之后点击下一步。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js.png" class="" title="This is an image">
-
-
-
-<p>之后按照提示操作安即可，这里就不再赘述了。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js0.jpg" class="" title="This is an image">
-
-
-
-<p>如果在安装过程中出现Warning 1909，无法创建快捷方式的问题，（如下图的问题）</p>
-<p>请自行参考百度文库：《win7安装程序警告1909无法创建快捷方式》</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1909.jpg" class="" title="This is an image">
-
-
-
-<p><a href="https://wenku.baidu.com/view/4ad59110964bcf84b9d57ba5.html" target="_blank" rel="noopener">https://wenku.baidu.com/view/4ad59110964bcf84b9d57ba5.html</a></p>
-<h5 id="2-Git安装："><a href="#2-Git安装：" class="headerlink" title="2.Git安装："></a>2.Git安装：</h5><p>Git下载官网：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></p>
-<p>选择适用自己的平台，由于我的电脑是Windows10系统，所以我选择Windows，点击下载。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git.png" class="" title="This is an image">
-
-
-
-<p>之后选择自己电脑对应的位数下载，我的是X64位电脑。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git1.png" class="" title="This is an image">
-
-
-
-<p>安装位置选择默认，之后点击下一步Next。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git2.png" class="" title="This is an image">
-
-
-
-<p>安装很简单，不再赘述</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git5.png" class="" title="This is an image">
-
-
-
-<h5 id="3-验证Node-js和Git是否安装成功，即本地环境是否搭建成功。"><a href="#3-验证Node-js和Git是否安装成功，即本地环境是否搭建成功。" class="headerlink" title="3.验证Node.js和Git是否安装成功，即本地环境是否搭建成功。"></a>3.验证Node.js和Git是否安装成功，即本地环境是否搭建成功。</h5><p>win建+R打开运行。输入cmd，进入命令提示符。</p>
-<p>(在英文输入法下)     依次输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">git --version</span><br></pre></td></tr></table></figure>
-
-<p>如果出现下图，即表示本地环境搭建成功。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/win1.png" class="" title="This is an image">
-
-
-
-<h5 id="4-打开GitHub官网"><a href="#4-打开GitHub官网" class="headerlink" title="4.打开GitHub官网"></a>4.打开GitHub官网</h5><p>GitHub官网: <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p>
-<p>点击Sign Up注册账户</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub1.jpg" class="" title="This is an image">
-
-
-
-<p>注册用户名，绑定邮箱</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub0.jpg" class="" title="This is an image">
-
-
-
-<p>选择免费的账户</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub13.jpg" class="" title="This is an image">
-
-
-
-<p>进入如下界面</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub14.jpeg" class="" title="This is an image">
-
-
-
-<p>点击Skip this step 跳过，进入如下界面</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub20.jpeg" class="" title="This is an image">
-
-
-
-<p>进入邮箱验证</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub16.jpeg" class="" title="This is an image">
-
-
-
-<p>登录GitHub账户</p>
-<p>​                     <img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub11.jpeg" class="" title="This is an image"></p>
-<p>进入邮箱查看验证码</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub17.jpeg" class="" title="This is an image">
-
-
-
-<p>输入验证码</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub18.jpeg" class="" title="This is an image">
-
-
-
-<p>登陆后</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" class="" title="This is an image">
-
-
-
-<p>接下来在桌面或者在哪都行，右击鼠标，点击Git Bash Here</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Git_Bash.jpg" class="" title="This is an image">
-
-
-
-<p>依次输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub邮箱&quot;</span><br></pre></td></tr></table></figure>
-
-<p>再输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;Github邮箱&quot;</span><br></pre></td></tr></table></figure>
-
-<p>让后回首回车，创建SSH密钥</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608444863.jpeg" class="" title="This is an image">
-
-
-
-<p>进入如下路径用记事本打开id_rsa.pub文件，复制文件内容。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608450608.jpeg" class="" title="This is an image">
-
-
-
-
-
-<p>登录GitHub，进入setting</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608439053.jpeg" class="" title="This is an image">
-
-
-
-
-
-<p>选择左边SSH and GPG Keys选项，添加密钥。点击New SSH Key添加</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607944334.jpg" class="" title="This is an image">
-
-
-
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607561800.jpg" class="" title="This is an image">
-
-
-
-<p>Title可以随便起，把刚才复制的密钥粘贴到Key中，点击Add SSH Key添加完成</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607565940.jpg" class="" title="This is an image">
-
-
-
-<p>再次打开Git Bash 并输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-
-<p>出现Are you sure…….输入yes回车。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607577804.jpg" class="" title="This is an image">
-
-
-
-<p>最后显示You ‘ve successfully……表示连接成功。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607582440.jpg" class="" title="This is an image">
-
-
-
-<p>点击右上角加号，点击New repository新建GitHub Pages仓库，创建后默认启用HTTPS。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub5.jpg" class="" title="This is an image">
-
-
-
-<p>新建的仓库如下，是否让你眼前一亮</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" class="" title="This is an image">
-
-
-
-<p>如果操作中有问题请点开下面的链接根据教程安装</p>
-<p><a href="https://blog.csdn.net/weixin_43729943/article/details/103838650?utm_source=app" target="_blank" rel="noopener">https://blog.csdn.net/weixin_43729943/article/details/103838650?utm_source=app</a></p>
-<p>其中包括接下来的一些步骤，可以参考借鉴教程。</p>
-<h3 id="OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> ubuntu16.04 </tag>
+            
+            <tag> ROS-kinetic </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的博客创建之路</title>
+      <link href="2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/"/>
+      <url>2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-2"><a href="#教你免费搭建个人博客-Hexo-amp-Github-2" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  2"></a>教你免费搭建个人博客(Hexo&amp;Github)  2</h1><p>上一期教程我们已经搭建好Blog的基础框架，准备工作应该进行得很顺利，在接下来的基础框架完善中，小编会分为两个部分：</p><h3 id="在本文中主要介绍博客基础功能的构建"><a href="#在本文中主要介绍博客基础功能的构建" class="headerlink" title="在本文中主要介绍博客基础功能的构建"></a>在本文中主要介绍博客基础功能的构建</h3><p>​                                                                                      <a id="more"></a></p><p>首先，在你电脑空间多的地方创建一个存放博客程序，主题和文章的文件夹，可以起名为Blog，</p><p>记住文件路径中最好不要有中文。</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image"><p>建好之后打开文件夹Blog，鼠标右击，选择【Git Bash Here】进入Git命令行窗口。</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/Git%E5%91%BD%E4%BB%A4.jpg" class="" title="This is an image"><p>输入以下代码使用npm安装Hexo博客程序</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>如果出现报错</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-error1.jpg" class="" title="This is an image"><p>使用下面这段代码安装淘宝源npm</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure><p>安装完成</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-success.jpg" class="" title="This is an image"><p>继续输入下面的代码安装淘宝源cnpm</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-cnpm.jpg" class="" title="This is an image"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>安装初始化组件</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-init.jpg" class="" title="This is an image"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-clean.jpg" class="" title="This is an image"><p>继续输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image"><p>如果执行hexo d命令出现下图错误是因为缺少hexo-deployer-git插件</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-error.jpg" class="" title="This is an image"><p>执行以下命令即可解决</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-deployer-git</span><br></pre></td></tr></table></figure><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/error-saving.jpg" class="" title="This is an image"><p>继续执行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -- save hexo-deployer-git</span><br></pre></td></tr></table></figure><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-reinstall.jpg" class="" title="This is an image"><p>问题解决</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g &amp;&amp; gulp</span><br></pre></td></tr></table></figure><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp.jpg" class="" title="This is an image"><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp-else.jpg" class="" title="This is an image"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>打开浏览器按照提示输入<a href="http://localhost:4000进行预览">http://localhost:4000进行预览</a></p><p>预览完成后 按下 Ctrl + C 结束预览</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-s.jpg" class="" title="This is an image"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>将写好的博客进行部署Github仓库</p><img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-success.jpg" class="" title="This is an image"><p>打开   http://用户名.github.io    进行查看</p><p>最后小编列举一些博客常用命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;博客标题&quot;</span><br><span class="line">hexo clean       清除静态缓存</span><br><span class="line">hexo g           生成博客文章</span><br><span class="line">hexo s           生成页面进行本地预览</span><br><span class="line">hexo d           部署博客文章</span><br><span class="line">hexo g &amp;&amp; gulp   博客压缩以提高访问速率</span><br></pre></td></tr></table></figure><h3 id="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
       <categories>
-        <category>hexo</category>
-        <category>github</category>
+          
+          <category> hexo </category>
+          
+          <category> yilia </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的博客创建之路</title>
-    <url>/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</url>
-    <content><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-2"><a href="#教你免费搭建个人博客-Hexo-amp-Github-2" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  2"></a>教你免费搭建个人博客(Hexo&amp;Github)  2</h1><p>上一期教程我们已经搭建好Blog的基础框架，准备工作应该进行得很顺利，在接下来的基础框架完善中，小编会分为两个部分：</p>
-<h3 id="在本文中主要介绍博客基础功能的构建"><a href="#在本文中主要介绍博客基础功能的构建" class="headerlink" title="在本文中主要介绍博客基础功能的构建"></a>在本文中主要介绍博客基础功能的构建</h3><p>​                                                                                      <a id="more"></a></p>
-<p>首先，在你电脑空间多的地方创建一个存放博客程序，主题和文章的文件夹，可以起名为Blog，</p>
-<p>记住文件路径中最好不要有中文。</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
-
-<p>建好之后打开文件夹Blog，鼠标右击，选择【Git Bash Here】进入Git命令行窗口。</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/Git%E5%91%BD%E4%BB%A4.jpg" class="" title="This is an image">
-
-<p>输入以下代码使用npm安装Hexo博客程序</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>如果出现报错</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-error1.jpg" class="" title="This is an image">
-
-<p>使用下面这段代码安装淘宝源npm</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-<p>安装完成</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-success.jpg" class="" title="This is an image">
-
-<p>继续输入下面的代码安装淘宝源cnpm</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-cnpm.jpg" class="" title="This is an image">
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-
-<p>安装初始化组件</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-init.jpg" class="" title="This is an image">
-
-
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-clean.jpg" class="" title="This is an image">
-
-<p>继续输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
-
-<p>如果执行hexo d命令出现下图错误是因为缺少hexo-deployer-git插件</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-error.jpg" class="" title="This is an image">
-
-<p>执行以下命令即可解决</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-deployer-git</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/error-saving.jpg" class="" title="This is an image">
-
-<p>继续执行</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -- save hexo-deployer-git</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-reinstall.jpg" class="" title="This is an image">
-
-<p>问题解决</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g &amp;&amp; gulp</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp.jpg" class="" title="This is an image">
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp-else.jpg" class="" title="This is an image">
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>打开浏览器按照提示输入<a href="http://localhost:4000进行预览">http://localhost:4000进行预览</a></p>
-<p>预览完成后 按下 Ctrl + C 结束预览</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-s.jpg" class="" title="This is an image">
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<p>将写好的博客进行部署Github仓库</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-success.jpg" class="" title="This is an image">
-
-<p>打开   http://用户名.github.io    进行查看</p>
-<p>最后小编列举一些博客常用命令</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &quot;博客标题&quot;</span><br><span class="line">hexo clean       清除静态缓存</span><br><span class="line">hexo g           生成博客文章</span><br><span class="line">hexo s           生成页面进行本地预览</span><br><span class="line">hexo d           部署博客文章</span><br><span class="line">hexo g &amp;&amp; gulp   博客压缩以提高访问速率</span><br></pre></td></tr></table></figure>
-
-<h3 id="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> yilia </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的博客创建之路</title>
+      <link href="2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/"/>
+      <url>2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-1"><a href="#教你免费搭建个人博客-Hexo-amp-Github-1" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  1"></a>教你免费搭建个人博客(Hexo&amp;Github)  1</h1><p>​      在基本完成搭建自己博客的过程中，花费了一天时间看各种教程，试图并从中找出搭建博客的最优办法。在一天半的时间里，通过在与各种ERROE的角逐中不断取胜，共计花费60小时成功创建了自己的第一个博客。</p><h3 id="在本文中主要介绍博客基础框架的搭建"><a href="#在本文中主要介绍博客基础框架的搭建" class="headerlink" title="在本文中主要介绍博客基础框架的搭建"></a>在本文中主要介绍博客基础框架的搭建</h3><a id="more"></a><h3 id="准备工作（搭建Blog基础框架）："><a href="#准备工作（搭建Blog基础框架）：" class="headerlink" title="准备工作（搭建Blog基础框架）："></a>准备工作（搭建Blog基础框架）：</h3><p>Hexo基于Node.js，在搭建过程中还需要安装npm和git,安装Node.js和Git构建本地环境。</p><h5 id="1-Node-js安装："><a href="#1-Node-js安装：" class="headerlink" title="1.Node.js安装："></a>1.Node.js安装：</h5><p>Node.js官网：<a href="http://nodejs.org/zh-cn/" target="_blank" rel="noopener">http://nodejs.org/zh-cn/</a></p><p>进入官网后下载Windows（x64）长期支持版。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/node.js1.png" class="" title="This is an image"><p>安装位置最好选择默认，其他均选择默认，之后点击下一步。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js.png" class="" title="This is an image"><p>之后按照提示操作安即可，这里就不再赘述了。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js0.jpg" class="" title="This is an image"><p>如果在安装过程中出现Warning 1909，无法创建快捷方式的问题，（如下图的问题）</p><p>请自行参考百度文库：《win7安装程序警告1909无法创建快捷方式》</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1909.jpg" class="" title="This is an image"><p><a href="https://wenku.baidu.com/view/4ad59110964bcf84b9d57ba5.html" target="_blank" rel="noopener">https://wenku.baidu.com/view/4ad59110964bcf84b9d57ba5.html</a></p><h5 id="2-Git安装："><a href="#2-Git安装：" class="headerlink" title="2.Git安装："></a>2.Git安装：</h5><p>Git下载官网：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></p><p>选择适用自己的平台，由于我的电脑是Windows10系统，所以我选择Windows，点击下载。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git.png" class="" title="This is an image"><p>之后选择自己电脑对应的位数下载，我的是X64位电脑。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git1.png" class="" title="This is an image"><p>安装位置选择默认，之后点击下一步Next。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git2.png" class="" title="This is an image"><p>安装很简单，不再赘述</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git5.png" class="" title="This is an image"><h5 id="3-验证Node-js和Git是否安装成功，即本地环境是否搭建成功。"><a href="#3-验证Node-js和Git是否安装成功，即本地环境是否搭建成功。" class="headerlink" title="3.验证Node.js和Git是否安装成功，即本地环境是否搭建成功。"></a>3.验证Node.js和Git是否安装成功，即本地环境是否搭建成功。</h5><p>win建+R打开运行。输入cmd，进入命令提示符。</p><p>(在英文输入法下)     依次输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">git --version</span><br></pre></td></tr></table></figure><p>如果出现下图，即表示本地环境搭建成功。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/win1.png" class="" title="This is an image"><h5 id="4-打开GitHub官网"><a href="#4-打开GitHub官网" class="headerlink" title="4.打开GitHub官网"></a>4.打开GitHub官网</h5><p>GitHub官网: <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p><p>点击Sign Up注册账户</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub1.jpg" class="" title="This is an image"><p>注册用户名，绑定邮箱</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub0.jpg" class="" title="This is an image"><p>选择免费的账户</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub13.jpg" class="" title="This is an image"><p>进入如下界面</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub14.jpeg" class="" title="This is an image"><p>点击Skip this step 跳过，进入如下界面</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub20.jpeg" class="" title="This is an image"><p>进入邮箱验证</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub16.jpeg" class="" title="This is an image"><p>登录GitHub账户</p><p>​                     <img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub11.jpeg" class="" title="This is an image"></p><p>进入邮箱查看验证码</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub17.jpeg" class="" title="This is an image"><p>输入验证码</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub18.jpeg" class="" title="This is an image"><p>登陆后</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" class="" title="This is an image"><p>接下来在桌面或者在哪都行，右击鼠标，点击Git Bash Here</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Git_Bash.jpg" class="" title="This is an image"><p>依次输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub邮箱&quot;</span><br></pre></td></tr></table></figure><p>再输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;Github邮箱&quot;</span><br></pre></td></tr></table></figure><p>让后回首回车，创建SSH密钥</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608444863.jpeg" class="" title="This is an image"><p>进入如下路径用记事本打开id_rsa.pub文件，复制文件内容。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608450608.jpeg" class="" title="This is an image"><p>登录GitHub，进入setting</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608439053.jpeg" class="" title="This is an image"><p>选择左边SSH and GPG Keys选项，添加密钥。点击New SSH Key添加</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607944334.jpg" class="" title="This is an image"><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607561800.jpg" class="" title="This is an image"><p>Title可以随便起，把刚才复制的密钥粘贴到Key中，点击Add SSH Key添加完成</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607565940.jpg" class="" title="This is an image"><p>再次打开Git Bash 并输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>出现Are you sure…….输入yes回车。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607577804.jpg" class="" title="This is an image"><p>最后显示You ‘ve successfully……表示连接成功。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607582440.jpg" class="" title="This is an image"><p>点击右上角加号，点击New repository新建GitHub Pages仓库，创建后默认启用HTTPS。</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub5.jpg" class="" title="This is an image"><p>新建的仓库如下，是否让你眼前一亮</p><img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" class="" title="This is an image"><p>如果操作中有问题请点开下面的链接根据教程安装</p><p><a href="https://blog.csdn.net/weixin_43729943/article/details/103838650?utm_source=app" target="_blank" rel="noopener">https://blog.csdn.net/weixin_43729943/article/details/103838650?utm_source=app</a></p><p>其中包括接下来的一些步骤，可以参考借鉴教程。</p><h3 id="OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
       <categories>
-        <category>hexo</category>
-        <category>yilia</category>
+          
+          <category> hexo </category>
+          
+          <category> github </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>yilia</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>虚拟机ubuntu16.04与ROS-kinetic</title>
-    <url>/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/</url>
-    <content><![CDATA[<h1 id="虚拟机ubuntu16-04与ROS-kinetic的安装"><a href="#虚拟机ubuntu16-04与ROS-kinetic的安装" class="headerlink" title="虚拟机ubuntu16.04与ROS-kinetic的安装"></a>虚拟机ubuntu16.04与ROS-kinetic的安装</h1><h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>​        最近由于要做的一个项目涉及到ROS与机器视觉以及一些SLAM技术，所以学习了一下机器人操作系统ROS在ubuntu上的安装，由于开始时经验不足，为了能有更高的容错率，我选择在Virtual Box上安装Ubuntu16.04虚拟机，得益于虚拟机可以轻松进行备份和恢复的优势，我在进行Ros的安装时更有信心。</p>
-<a id="more"></a>
-
-<h3 id="本机环境"><a href="#本机环境" class="headerlink" title="本机环境"></a>本机环境</h3><p>​        Windows10家庭版 + Ubuntu16.04虚拟机 + ROS kinetic</p>
-<h2 id="安装流程-虚拟机-Ubuntu安装教程"><a href="#安装流程-虚拟机-Ubuntu安装教程" class="headerlink" title="安装流程   虚拟机+Ubuntu安装教程"></a>安装流程   虚拟机+Ubuntu安装教程</h2><h4 id="方案1-VMware虚拟机安装ubuntu16-04"><a href="#方案1-VMware虚拟机安装ubuntu16-04" class="headerlink" title="方案1.VMware虚拟机安装ubuntu16.04"></a>方案1.VMware虚拟机安装ubuntu16.04</h4><p>可以参考火耳软件安装的</p>
-<h4 id="方案2-Virtual-Box虚拟机安装ubuntu16-04"><a href="#方案2-Virtual-Box虚拟机安装ubuntu16-04" class="headerlink" title="方案2.Virtual Box虚拟机安装ubuntu16.04"></a>方案2.Virtual Box虚拟机安装ubuntu16.04</h4><p>可以参考博客园上的</p>
-<h2 id="安装流程-ubuntu16-04-ROS（kentic）"><a href="#安装流程-ubuntu16-04-ROS（kentic）" class="headerlink" title="安装流程     ubuntu16.04+ROS（kentic）"></a>安装流程     ubuntu16.04+ROS（kentic）</h2><h4 id="1-注意对应好版本"><a href="#1-注意对应好版本" class="headerlink" title="1.注意对应好版本"></a>1.注意对应好版本</h4><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/ROS_Installation_Options.jpg" class="" title="This is an image">
-
-<h4 id="2-配置软件源"><a href="#2-配置软件源" class="headerlink" title="2.配置软件源"></a>2.配置软件源</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo sh -c &#39;echo &quot;deb http:&#x2F;&#x2F;packages.ros.org&#x2F;ros&#x2F;ubuntu $(lsb_release -sc) main&quot; &gt; &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;ros-latest.list&#39;</span><br></pre></td></tr></table></figure>
-
-<p>使用alinyun镜像源即可</p>
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/apply_install_sources.jpg" class="" title="This is an image">
-
-<h4 id="3-添加密钥"><a href="#3-添加密钥" class="headerlink" title="3.添加密钥"></a>3.添加密钥</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-key adv --keyserver &#39;hkp:&#x2F;&#x2F;keyserver.ubuntu.com:80&#39; --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/add_key.jpg" class="" title="This is an image">
-
-<h4 id="4-安装ROS（桌面完整版Desktop-Full）"><a href="#4-安装ROS（桌面完整版Desktop-Full）" class="headerlink" title="4.安装ROS（桌面完整版Desktop-Full）"></a>4.安装ROS（桌面完整版Desktop-Full）</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-melodic-desktop-full</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full1.jpg" class="" title="This is an image">
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full11.jpg" class="" title="This is an image">
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full2.jpg" class="" title="This is an image">
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full3.jpg" class="" title="This is an image">
-
-<p>独立功能包的安装，其中PACKAGE代表功能包的名称</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-melodic-PACKAGE</span><br></pre></td></tr></table></figure>
-
-<p>例如安装机器人SLAM地图建模gmapping功能包时，可以使用以下命令进行安装</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-melodic-slam-gmapping</span><br></pre></td></tr></table></figure>
-
-<h4 id="5-初始化ROS"><a href="#5-初始化ROS" class="headerlink" title="5.初始化ROS"></a>5.初始化ROS</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo rosdep init</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">rosdep update</span><br></pre></td></tr></table></figure>
-
-
-
-<p>如遇到问题，可以参考</p>
-
-
-<h4 id="6-配置环境变量"><a href="#6-配置环境变量" class="headerlink" title="6.配置环境变量"></a>6.配置环境变量</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">echo &quot;source &#x2F;opt&#x2F;ros&#x2F;kinetic&#x2F;setup.bash&quot; &gt;&gt; ~&#x2F;.bashrc</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source ~&#x2F;.bashrc</span><br></pre></td></tr></table></figure>
-
-<h4 id="7-安装完成检测"><a href="#7-安装完成检测" class="headerlink" title="7.安装完成检测"></a>7.安装完成检测</h4><p>打开terminal输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">roscore</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/roscore.jpg" class="" title="This is an image">
-
-<h3 id="OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"><a href="#OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！" class="headerlink" title="OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！"></a>OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续教程小编会分几期更新。喜欢的话请支持小编！同时也欢迎各位大佬为小编指出不足之处！在此小编万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2019/08/26/hello-world/"/>
+      <url>2019/08/26/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
       <categories>
-        <category>ubuntu16.04</category>
-        <category>ROS-kinetic</category>
+          
+          <category> first </category>
+          
+          <category> page </category>
+          
       </categories>
-      <tags>
-        <tag>ubuntu16.04</tag>
-        <tag>ROS-kinetic</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> first </tag>
+            
+            <tag> page </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>

@@ -29,86 +29,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</title>
-    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</url>
-    <content><![CDATA[<p>在学习Linux系统的使用的过程中，在学习了一段时间之后，我觉得有必要为自己的战神（TX6-CT5DA）加装一块128G的固态硬盘用于安装ubuntu18.04系统，本文属于Ubuntu与ROS系列。</p>
-<h1 id="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"><a href="#在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘" class="headerlink" title="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"></a>在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</h1><a id="more"></a>
-
-<h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h2><p><font color=#999AAA >项目场景：如果你想使用Windows与Linux两种系统，比如Ubuntu之类的，同时你追求更高的性能，那么显然双系统可能是你更好的选择。</font></p>
-<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>1.提前下载好自己需要的Linux安装镜像，比如Ubuntu16.04</p>
-<p>2.准备一个大小至少为32G的U盘</p>
-<p>3.准备一块不小于128G的固态硬盘，不建议机械硬盘，这里就不多解释了。</p>
-<p>这里附上我所购买的<a href="https://m.tb.cn/h.488QMNG?sm=429b6e" target="_blank" rel="noopener">宏想固态</a></p>
-<p>4.准备必要的拆机工具，比如螺丝刀。</p>
-<h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><p>1.首先将笔记本电脑关机，如果是Win10家庭版可以使用快捷组合键Win+X，U，U即可快速关机。</p>
-<p>2.取下笔记本的电池</p>
-<p>3.将笔记本后盖的螺丝拧下来</p>
-<p>4.使用专用的撬棒沿着后盖的纹路一点一点撬开，过程中要胆大心细，每撬开一处可以听到清脆的响声，注意过程中不要太过着急，卡扣比较脆弱，很容易弄断。</p>
-<p><font color=#999AAA >注意：不建议大力出奇迹的想法，出问题的看客责任自负，还有请小白同学慎重考虑是否要亲力亲为。</font></p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/1.jpg" class="" title="This is an image">
-
-<p>这个是我拆机后的图片，神舟战神T系列可以看到，英特尔 i5 9400 CPU芯片并不是直接焊在主板上的，也就是说，之后有可能可以更换更高性能的CPU芯片，比如i5 10400，当然这还是需要考虑功耗与散热方面的影响。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/2.jpg" class="" title="This is an image">
-
-<p>因为是蓝天公模，所以后盖也很有特点。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/3.jpg" class="" title="This is an image">
-
-<p>这是加上固态硬盘后的图片，直接将其对应好接口插入即可</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/4.jpg" class="" title="This is an image">
-
-<p>可以看到，还有一个内存条接口和M.2固态硬盘接口</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/5.jpg" class="" title="This is an image">
-
-<p>难得自己拆机一次，建议备好清灰工具之类的，可以为自己的电脑清清灰。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/6.jpg" class="" title="This is an image">
-
-<p>清灰完成后先不要着急合上后盖，先装上电池，开机检查新的固态硬盘能否正常进行读写操作。避免返工。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/7.jpg" class="" title="This is an image">
-
-<p>检查完成后没有问题，先进行关机，因为不取下电池，无法安装后盖。</p>
-<p>之后按照正常流程装回所有部分即可。</p>
-<h2 id="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
-      <categories>
-        <category>神舟战神TX6-CT5DA</category>
-        <category>固态硬盘</category>
-      </categories>
-      <tags>
-        <tag>神舟战神TX6-CT5DA</tag>
-        <tag>固态硬盘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何解决来自github的警告:Dependabot alerts</title>
-    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</url>
-    <content><![CDATA[<p>最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies" target="_blank" rel="noopener">Dependabot alerts</a>警告</p>
-<a id="more"></a>
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg" class="" title="This is an image">
-
-<p>发现诸如下图的多个官方警告</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg" class="" title="This is an image">
-
-<p>打开yarn.lock</p>
-<p>将其中代码复制到新建的yarn.txt文件中，然后使用yarn.txt文件通过更改后缀名的方式，将项目的原yarn.lock文件替换。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg" class="" title="This is an image">
-
-<p>再将项目文件<a href="https://blog.csdn.net/Lucky_LXG/article/details/77849212" target="_blank" rel="noopener">使用git推送部署到github</a>的远端服务器上</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg" class="" title="This is an image">
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg" class="" title="This is an image">
-
-<p>好了，问题终于解决了</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg" class="" title="This is an image">
-
-<h2 id="OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何在VScode中跑一个从github上fork下来的项目</title>
     <url>/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<p>​    在学习VS code的使用的过程中，花费了一个白天时间看各种教程，试图并从中找出快速上手项目基配置的具体步骤。在一天半的时间里不断试错，最后，共计花费20小时成功在VS code中运行了自己的第一个项目，虽然这个项目不是我完成的，但这次经历对于现在的我来说还是至关重要的。</p>
@@ -189,9 +109,58 @@
         <category>fork</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>VScode</tag>
+        <tag>github</tag>
         <tag>fork</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</title>
+    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</url>
+    <content><![CDATA[<p>在学习Linux系统的使用的过程中，在学习了一段时间之后，我觉得有必要为自己的战神（TX6-CT5DA）加装一块128G的固态硬盘用于安装ubuntu18.04系统，本文属于Ubuntu与ROS系列。</p>
+<h1 id="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"><a href="#在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘" class="headerlink" title="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"></a>在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</h1><a id="more"></a>
+
+<h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h2><p><font color=#999AAA >项目场景：如果你想使用Windows与Linux两种系统，比如Ubuntu之类的，同时你追求更高的性能，那么显然双系统可能是你更好的选择。</font></p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>1.提前下载好自己需要的Linux安装镜像，比如Ubuntu16.04</p>
+<p>2.准备一个大小至少为32G的U盘</p>
+<p>3.准备一块不小于128G的固态硬盘，不建议机械硬盘，这里就不多解释了。</p>
+<p>这里附上我所购买的<a href="https://m.tb.cn/h.488QMNG?sm=429b6e" target="_blank" rel="noopener">宏想固态</a></p>
+<p>4.准备必要的拆机工具，比如螺丝刀。</p>
+<h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><p>1.首先将笔记本电脑关机，如果是Win10家庭版可以使用快捷组合键Win+X，U，U即可快速关机。</p>
+<p>2.取下笔记本的电池</p>
+<p>3.将笔记本后盖的螺丝拧下来</p>
+<p>4.使用专用的撬棒沿着后盖的纹路一点一点撬开，过程中要胆大心细，每撬开一处可以听到清脆的响声，注意过程中不要太过着急，卡扣比较脆弱，很容易弄断。</p>
+<p><font color=#999AAA >注意：不建议大力出奇迹的想法，出问题的看客责任自负，还有请小白同学慎重考虑是否要亲力亲为。</font></p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/1.jpg" class="" title="This is an image">
+
+<p>这个是我拆机后的图片，神舟战神T系列可以看到，英特尔 i5 9400 CPU芯片并不是直接焊在主板上的，也就是说，之后有可能可以更换更高性能的CPU芯片，比如i5 10400，当然这还是需要考虑功耗与散热方面的影响。</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/2.jpg" class="" title="This is an image">
+
+<p>因为是蓝天公模，所以后盖也很有特点。</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/3.jpg" class="" title="This is an image">
+
+<p>这是加上固态硬盘后的图片，直接将其对应好接口插入即可</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/4.jpg" class="" title="This is an image">
+
+<p>可以看到，还有一个内存条接口和M.2固态硬盘接口</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/5.jpg" class="" title="This is an image">
+
+<p>难得自己拆机一次，建议备好清灰工具之类的，可以为自己的电脑清清灰。</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/6.jpg" class="" title="This is an image">
+
+<p>清灰完成后先不要着急合上后盖，先装上电池，开机检查新的固态硬盘能否正常进行读写操作。避免返工。</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/7.jpg" class="" title="This is an image">
+
+<p>检查完成后没有问题，先进行关机，因为不取下电池，无法安装后盖。</p>
+<p>之后按照正常流程装回所有部分即可。</p>
+<h2 id="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+      <categories>
+        <category>神舟战神TX6-CT5DA</category>
+        <category>固态硬盘</category>
+      </categories>
+      <tags>
+        <tag>神舟战神TX6-CT5DA</tag>
+        <tag>固态硬盘</tag>
       </tags>
   </entry>
   <entry>
@@ -250,6 +219,37 @@
       </categories>
       <tags>
         <tag>操作技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何解决来自github的警告:Dependabot alerts</title>
+    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</url>
+    <content><![CDATA[<p>最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies" target="_blank" rel="noopener">Dependabot alerts</a>警告</p>
+<a id="more"></a>
+
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg" class="" title="This is an image">
+
+<p>发现诸如下图的多个官方警告</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg" class="" title="This is an image">
+
+<p>打开yarn.lock</p>
+<p>将其中代码复制到新建的yarn.txt文件中，然后使用yarn.txt文件通过更改后缀名的方式，将项目的原yarn.lock文件替换。</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg" class="" title="This is an image">
+
+<p>再将项目文件<a href="https://blog.csdn.net/Lucky_LXG/article/details/77849212" target="_blank" rel="noopener">使用git推送部署到github</a>的远端服务器上</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg" class="" title="This is an image">
+
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg" class="" title="This is an image">
+
+<p>好了，问题终于解决了</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg" class="" title="This is an image">
+
+<h2 id="OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>

@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>如何解决来自github的警告:Dependabot alerts</title>
+    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</url>
+    <content><![CDATA[<p>最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies" target="_blank" rel="noopener">Dependabot alerts</a>警告</p>
+<a id="more"></a>
+
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg" class="" title="This is an image">
+
+<p>发现诸如下图的多个官方警告</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg" class="" title="This is an image">
+
+<p>打开yarn.lock</p>
+<p>将其中代码复制到新建的yarn.txt文件中，然后使用yarn.txt文件通过更改后缀名的方式，将项目的原yarn.lock文件替换。</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg" class="" title="This is an image">
+
+<p>再将项目文件<a href="https://blog.csdn.net/Lucky_LXG/article/details/77849212" target="_blank" rel="noopener">使用git推送部署到github</a>的远端服务器上</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg" class="" title="This is an image">
+
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg" class="" title="This is an image">
+
+<p>好了，问题终于解决了</p>
+<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg" class="" title="This is an image">
+
+<h2 id="OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2019/08/26/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -109,8 +140,8 @@
         <category>fork</category>
       </categories>
       <tags>
-        <tag>VScode</tag>
         <tag>github</tag>
+        <tag>VScode</tag>
         <tag>fork</tag>
       </tags>
   </entry>
@@ -219,37 +250,6 @@
       </categories>
       <tags>
         <tag>操作技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何解决来自github的警告:Dependabot alerts</title>
-    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</url>
-    <content><![CDATA[<p>最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies" target="_blank" rel="noopener">Dependabot alerts</a>警告</p>
-<a id="more"></a>
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg" class="" title="This is an image">
-
-<p>发现诸如下图的多个官方警告</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg" class="" title="This is an image">
-
-<p>打开yarn.lock</p>
-<p>将其中代码复制到新建的yarn.txt文件中，然后使用yarn.txt文件通过更改后缀名的方式，将项目的原yarn.lock文件替换。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg" class="" title="This is an image">
-
-<p>再将项目文件<a href="https://blog.csdn.net/Lucky_LXG/article/details/77849212" target="_blank" rel="noopener">使用git推送部署到github</a>的远端服务器上</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg" class="" title="This is an image">
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg" class="" title="This is an image">
-
-<p>好了，问题终于解决了</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg" class="" title="This is an image">
-
-<h2 id="OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>

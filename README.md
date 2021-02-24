@@ -4,8 +4,8 @@
 
 - 博客功能单元相对较少，比较注重简约
 - 主要用于记录自己的日常学习经历及所遇问题的解决过程
-- 如果大家有个好的意见，欢迎致电我的邮箱2054552689@qq.com。
-- **本项目源于：[https://github.com/JoeyBling/hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus)。向作者表示深深的敬意。**https://www.jianshu.com/p/efebead840b2)
+- 如果大家有个好的意见，欢迎致电我的邮箱2054552689@qq.com
+- 本项目源于：[https://github.com/JoeyBling/hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus)  向作者表示深深的敬意
 
 ## License
 

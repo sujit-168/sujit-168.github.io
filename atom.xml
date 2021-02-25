@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>甦傑的博客</title>
-  <icon>http://sujit-168.github.io/icon.png</icon>
+  <icon>http://sujie-168.top/icon.png</icon>
   <subtitle>未来有无限可能</subtitle>
-  <link href="http://sujit-168.github.io/atom.xml" rel="self"/>
+  <link href="http://sujie-168.top/atom.xml" rel="self"/>
   
-  <link href="http://sujit-168.github.io/"/>
+  <link href="http://sujie-168.top/"/>
   <updated>2021-02-24T09:29:45.658Z</updated>
-  <id>http://sujit-168.github.io/</id>
+  <id>http://sujie-168.top/</id>
   
   <author>
     <name>甦傑</name>
@@ -18,33 +18,33 @@
   
   <entry>
     <title>如何在Ubuntu18.04上训练一个YOLO3模型</title>
-    <link href="http://sujit-168.github.io/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/"/>
-    <id>http://sujit-168.github.io/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/</id>
+    <link href="http://sujie-168.top/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://sujie-168.top/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/</id>
     <published>2021-02-24T09:27:16.000Z</published>
     <updated>2021-02-24T09:29:45.658Z</updated>
     
     
     
     
-    <category term="Ubuntu18.04" scheme="http://sujit-168.github.io/categories/Ubuntu18-04/"/>
+    <category term="Ubuntu18.04" scheme="http://sujie-168.top/categories/Ubuntu18-04/"/>
     
-    <category term="YOLO3" scheme="http://sujit-168.github.io/categories/Ubuntu18-04/YOLO3/"/>
+    <category term="YOLO3" scheme="http://sujie-168.top/categories/Ubuntu18-04/YOLO3/"/>
     
-    <category term="Machine Learning" scheme="http://sujit-168.github.io/categories/Ubuntu18-04/YOLO3/Machine-Learning/"/>
+    <category term="Machine Learning" scheme="http://sujie-168.top/categories/Ubuntu18-04/YOLO3/Machine-Learning/"/>
     
     
-    <category term="Ubuntu18.04" scheme="http://sujit-168.github.io/tags/Ubuntu18-04/"/>
+    <category term="Ubuntu18.04" scheme="http://sujie-168.top/tags/Ubuntu18-04/"/>
     
-    <category term="YOLO3" scheme="http://sujit-168.github.io/tags/YOLO3/"/>
+    <category term="YOLO3" scheme="http://sujie-168.top/tags/YOLO3/"/>
     
-    <category term="Machine Learning" scheme="http://sujit-168.github.io/tags/Machine-Learning/"/>
+    <category term="Machine Learning" scheme="http://sujie-168.top/tags/Machine-Learning/"/>
     
   </entry>
   
   <entry>
     <title>如何解决来自github的警告:Dependabot alerts</title>
-    <link href="http://sujit-168.github.io/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/"/>
-    <id>http://sujit-168.github.io/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</id>
+    <link href="http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/"/>
+    <id>http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</id>
     <published>2021-01-22T09:06:01.000Z</published>
     <updated>2021-01-23T11:27:43.601Z</updated>
     
@@ -53,17 +53,17 @@
     
     
     
-    <category term="github" scheme="http://sujit-168.github.io/categories/github/"/>
+    <category term="github" scheme="http://sujie-168.top/categories/github/"/>
     
     
-    <category term="github" scheme="http://sujit-168.github.io/tags/github/"/>
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</title>
-    <link href="http://sujit-168.github.io/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
-    <id>http://sujit-168.github.io/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</id>
+    <link href="http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
+    <id>http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</id>
     <published>2021-01-22T06:19:19.000Z</published>
     <updated>2021-01-23T11:57:58.220Z</updated>
     
@@ -73,21 +73,21 @@
     
     
     
-    <category term="神舟战神TX6-CT5DA" scheme="http://sujit-168.github.io/categories/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/"/>
+    <category term="神舟战神TX6-CT5DA" scheme="http://sujie-168.top/categories/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/"/>
     
-    <category term="固态硬盘" scheme="http://sujit-168.github.io/categories/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
+    <category term="固态硬盘" scheme="http://sujie-168.top/categories/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
     
     
-    <category term="神舟战神TX6-CT5DA" scheme="http://sujit-168.github.io/tags/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/"/>
+    <category term="神舟战神TX6-CT5DA" scheme="http://sujie-168.top/tags/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/"/>
     
-    <category term="固态硬盘" scheme="http://sujit-168.github.io/tags/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
+    <category term="固态硬盘" scheme="http://sujie-168.top/tags/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
     
   </entry>
   
   <entry>
     <title>如何在VScode中跑一个从github上fork下来的项目</title>
-    <link href="http://sujit-168.github.io/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
-    <id>http://sujit-168.github.io/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/</id>
+    <link href="http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/</id>
     <published>2021-01-22T05:24:04.000Z</published>
     <updated>2021-01-23T12:12:19.300Z</updated>
     
@@ -97,25 +97,25 @@
     
     
     
-    <category term="VScode" scheme="http://sujit-168.github.io/categories/VScode/"/>
+    <category term="VScode" scheme="http://sujie-168.top/categories/VScode/"/>
     
-    <category term="github" scheme="http://sujit-168.github.io/categories/VScode/github/"/>
+    <category term="github" scheme="http://sujie-168.top/categories/VScode/github/"/>
     
-    <category term="fork" scheme="http://sujit-168.github.io/categories/VScode/github/fork/"/>
+    <category term="fork" scheme="http://sujie-168.top/categories/VScode/github/fork/"/>
     
     
-    <category term="VScode" scheme="http://sujit-168.github.io/tags/VScode/"/>
+    <category term="VScode" scheme="http://sujie-168.top/tags/VScode/"/>
     
-    <category term="github" scheme="http://sujit-168.github.io/tags/github/"/>
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
     
-    <category term="fork" scheme="http://sujit-168.github.io/tags/fork/"/>
+    <category term="fork" scheme="http://sujie-168.top/tags/fork/"/>
     
   </entry>
   
   <entry>
     <title>对于一些不可复制文档的操作技巧</title>
-    <link href="http://sujit-168.github.io/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
-    <id>http://sujit-168.github.io/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</id>
+    <link href="http://sujie-168.top/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    <id>http://sujie-168.top/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</id>
     <published>2021-01-13T13:05:38.000Z</published>
     <updated>2021-01-23T11:58:22.587Z</updated>
     
@@ -124,17 +124,17 @@
     
     
     
-    <category term="操作技巧" scheme="http://sujit-168.github.io/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="操作技巧" scheme="http://sujie-168.top/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="操作技巧" scheme="http://sujit-168.github.io/tags/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="操作技巧" scheme="http://sujie-168.top/tags/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
   <entry>
     <title>虚拟机ubuntu16.04与ROS-kinetic</title>
-    <link href="http://sujit-168.github.io/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/"/>
-    <id>http://sujit-168.github.io/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/</id>
+    <link href="http://sujie-168.top/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/"/>
+    <id>http://sujie-168.top/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/</id>
     <published>2020-12-28T11:52:06.000Z</published>
     <updated>2021-01-22T13:32:35.705Z</updated>
     
@@ -143,21 +143,21 @@
     
     
     
-    <category term="ubuntu16.04" scheme="http://sujit-168.github.io/categories/ubuntu16-04/"/>
+    <category term="ubuntu16.04" scheme="http://sujie-168.top/categories/ubuntu16-04/"/>
     
-    <category term="ROS-kinetic" scheme="http://sujit-168.github.io/categories/ubuntu16-04/ROS-kinetic/"/>
+    <category term="ROS-kinetic" scheme="http://sujie-168.top/categories/ubuntu16-04/ROS-kinetic/"/>
     
     
-    <category term="ubuntu16.04" scheme="http://sujit-168.github.io/tags/ubuntu16-04/"/>
+    <category term="ubuntu16.04" scheme="http://sujie-168.top/tags/ubuntu16-04/"/>
     
-    <category term="ROS-kinetic" scheme="http://sujit-168.github.io/tags/ROS-kinetic/"/>
+    <category term="ROS-kinetic" scheme="http://sujie-168.top/tags/ROS-kinetic/"/>
     
   </entry>
   
   <entry>
     <title>我的博客创建之路</title>
-    <link href="http://sujit-168.github.io/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/"/>
-    <id>http://sujit-168.github.io/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</id>
+    <link href="http://sujie-168.top/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/"/>
+    <id>http://sujie-168.top/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</id>
     <published>2020-04-16T05:22:24.000Z</published>
     <updated>2021-01-22T13:03:08.480Z</updated>
     
@@ -167,21 +167,21 @@
     
     
     
-    <category term="hexo" scheme="http://sujit-168.github.io/categories/hexo/"/>
+    <category term="hexo" scheme="http://sujie-168.top/categories/hexo/"/>
     
-    <category term="yilia" scheme="http://sujit-168.github.io/categories/hexo/yilia/"/>
+    <category term="yilia" scheme="http://sujie-168.top/categories/hexo/yilia/"/>
     
     
-    <category term="hexo" scheme="http://sujit-168.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="http://sujie-168.top/tags/hexo/"/>
     
-    <category term="yilia" scheme="http://sujit-168.github.io/tags/yilia/"/>
+    <category term="yilia" scheme="http://sujie-168.top/tags/yilia/"/>
     
   </entry>
   
   <entry>
     <title>我的博客创建之路</title>
-    <link href="http://sujit-168.github.io/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/"/>
-    <id>http://sujit-168.github.io/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/</id>
+    <link href="http://sujie-168.top/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/"/>
+    <id>http://sujie-168.top/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/</id>
     <published>2020-04-11T05:14:58.000Z</published>
     <updated>2021-01-22T13:03:33.552Z</updated>
     
@@ -191,21 +191,21 @@
     
     
     
-    <category term="hexo" scheme="http://sujit-168.github.io/categories/hexo/"/>
+    <category term="hexo" scheme="http://sujie-168.top/categories/hexo/"/>
     
-    <category term="github" scheme="http://sujit-168.github.io/categories/hexo/github/"/>
+    <category term="github" scheme="http://sujie-168.top/categories/hexo/github/"/>
     
     
-    <category term="github" scheme="http://sujit-168.github.io/tags/github/"/>
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
     
-    <category term="hexo" scheme="http://sujit-168.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="http://sujie-168.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://sujit-168.github.io/2019/08/26/hello-world/"/>
-    <id>http://sujit-168.github.io/2019/08/26/hello-world/</id>
+    <link href="http://sujie-168.top/2019/08/26/hello-world/"/>
+    <id>http://sujie-168.top/2019/08/26/hello-world/</id>
     <published>2019-08-26T05:22:24.000Z</published>
     <updated>2021-01-22T05:58:51.341Z</updated>
     
@@ -215,14 +215,14 @@
     
     
     
-    <category term="first" scheme="http://sujit-168.github.io/categories/first/"/>
+    <category term="first" scheme="http://sujie-168.top/categories/first/"/>
     
-    <category term="page" scheme="http://sujit-168.github.io/categories/first/page/"/>
+    <category term="page" scheme="http://sujie-168.top/categories/first/page/"/>
     
     
-    <category term="first" scheme="http://sujit-168.github.io/tags/first/"/>
+    <category term="first" scheme="http://sujie-168.top/tags/first/"/>
     
-    <category term="page" scheme="http://sujit-168.github.io/tags/page/"/>
+    <category term="page" scheme="http://sujie-168.top/tags/page/"/>
     
   </entry>
   

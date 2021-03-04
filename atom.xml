@@ -6,7 +6,7 @@
   <link href="http://sujie-168.top/atom.xml" rel="self"/>
   
   <link href="http://sujie-168.top/"/>
-  <updated>2021-02-24T09:29:45.658Z</updated>
+  <updated>2021-03-01T10:46:11.092Z</updated>
   <id>http://sujie-168.top/</id>
   
   <author>
@@ -17,12 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>如何订阅我的个人博客</title>
+    <link href="http://sujie-168.top/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://sujie-168.top/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-03-01T02:54:35.000Z</published>
+    <updated>2021-03-01T10:46:11.092Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近研究了一下如何给自己的博客添加订阅功能，在&lt;a href=&quot;https://zhuanlan.zhihu.com/p/111978933&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这篇文章&lt;/a&gt;里找到了些许灵感。&lt;/p&gt;
+&lt;h1 id=&quot;本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&quot;&gt;&lt;a href=&quot;#本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&quot; class=&quot;headerlink&quot; title=&quot;本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&quot;&gt;&lt;/a&gt;本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="操作技巧" scheme="http://sujie-168.top/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="RSS订阅" scheme="http://sujie-168.top/tags/RSS%E8%AE%A2%E9%98%85/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何在Ubuntu18.04上训练一个YOLO3模型</title>
     <link href="http://sujie-168.top/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/"/>
     <id>http://sujie-168.top/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/</id>
     <published>2021-02-24T09:27:16.000Z</published>
-    <updated>2021-02-24T09:29:45.658Z</updated>
+    <updated>2021-03-03T05:26:58.842Z</updated>
     
+    
+    <summary type="html">&lt;p&gt;最近接触的项目需要用到目标检测算法，而&lt;a href=&quot;https://pjreddie.com/darknet/yolo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Yolo模型&lt;/a&gt;在目标检测领域独具有代表性，可以说入门首选。&lt;a href=&quot;https://blog.csdn.net/weixin_42747301/article/details/96636614&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ubuntu18.04下YOLOv3详解&lt;/a&gt;是我找到对于整个目标检测环节描述比较详细的这篇文章，有需要的小伙伴可以参考。&lt;/p&gt;
+&lt;h1 id=&quot;本文中主要介绍我是如何在Ubuntu18-04上训练一个Yolo3目标检测模型&quot;&gt;&lt;a href=&quot;#本文中主要介绍我是如何在Ubuntu18-04上训练一个Yolo3目标检测模型&quot; class=&quot;headerlink&quot; title=&quot;本文中主要介绍我是如何在Ubuntu18.04上训练一个Yolo3目标检测模型&quot;&gt;&lt;/a&gt;本文中主要介绍我是如何在Ubuntu18.04上训练一个Yolo3目标检测模型&lt;/h1&gt;</summary>
     
     
     
@@ -207,7 +230,7 @@
     <link href="http://sujie-168.top/2019/08/26/hello-world/"/>
     <id>http://sujie-168.top/2019/08/26/hello-world/</id>
     <published>2019-08-26T05:22:24.000Z</published>
-    <updated>2021-01-22T05:58:51.341Z</updated>
+    <updated>2021-03-01T09:29:52.202Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;

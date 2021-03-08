@@ -1,52 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</title>
-    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</url>
-    <content><![CDATA[<p>在学习Linux系统的使用的过程中，在学习了一段时间之后，我觉得有必要为自己的战神（TX6-CT5DA）加装一块128G的固态硬盘用于安装ubuntu18.04系统，本文属于Ubuntu与ROS系列。</p>
-<h1 id="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"><a href="#在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘" class="headerlink" title="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"></a>在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</h1><a id="more"></a>
+    <title>How to push to github</title>
+    <url>/2021/03/05/How-to-push-to-github/</url>
+    <content><![CDATA[<p>之前刚开始接触Github的时候，有太多需要注意的点需要care，所以很多时候都畏手畏脚，导致有许多次想要尝试却铩羽而归，这次就以如何push自己的项目到github仓库上举例</p>
+<h1 id="本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新"><a href="#本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新" class="headerlink" title="本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新"></a>本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新</h1><a id="more"></a>
 
-<h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h2><p><font color=#999AAA >项目场景：如果你想使用Windows与Linux两种系统，比如Ubuntu之类的，同时你追求更高的性能，那么显然双系统可能是你更好的选择。</font></p>
-<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>1.提前下载好自己需要的Linux安装镜像，比如Ubuntu16.04</p>
-<p>2.准备一个大小至少为32G的U盘</p>
-<p>3.准备一块不小于128G的固态硬盘，不建议机械硬盘，这里就不多解释了。</p>
-<p>这里附上我所购买的<a href="https://m.tb.cn/h.488QMNG?sm=429b6e" target="_blank" rel="noopener">宏想固态</a></p>
-<p>4.准备必要的拆机工具，比如螺丝刀。</p>
-<h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><p>1.首先将笔记本电脑关机，如果是Win10家庭版可以使用快捷组合键Win+X，U，U即可快速关机。</p>
-<p>2.取下笔记本的电池</p>
-<p>3.将笔记本后盖的螺丝拧下来</p>
-<p>4.使用专用的撬棒沿着后盖的纹路一点一点撬开，过程中要胆大心细，每撬开一处可以听到清脆的响声，注意过程中不要太过着急，卡扣比较脆弱，很容易弄断。</p>
-<p><font color=#999AAA >注意：不建议大力出奇迹的想法，出问题的看客责任自负，还有请小白同学慎重考虑是否要亲力亲为。</font></p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/1.jpg" class="" title="This is an image">
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/push%20to%20github.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git checkout -b dev #创建一个名为dev的新分支并切换到该分支，如已有dev分支，去掉-b即可切换到dev分支</span><br><span class="line">git add .  # 增加改动</span><br><span class="line">git commit -m &quot;first commit&quot;  # 提交本次名为first commit的修改</span><br><span class="line">git pull  # 如果出现冲突，则需要执行此代码</span><br><span class="line">git log -p # 查看本次提交所进行的修改，确认无误即可进行下一步操作</span><br><span class="line">git push origin dev</span><br></pre></td></tr></table></figure>
 
-<p>这个是我拆机后的图片，神舟战神T系列可以看到，英特尔 i5 9400 CPU芯片并不是直接焊在主板上的，也就是说，之后有可能可以更换更高性能的CPU芯片，比如i5 10400，当然这还是需要考虑功耗与散热方面的影响。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/2.jpg" class="" title="This is an image">
-
-<p>因为是蓝天公模，所以后盖也很有特点。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/3.jpg" class="" title="This is an image">
-
-<p>这是加上固态硬盘后的图片，直接将其对应好接口插入即可</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/4.jpg" class="" title="This is an image">
-
-<p>可以看到，还有一个内存条接口和M.2固态硬盘接口</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/5.jpg" class="" title="This is an image">
-
-<p>难得自己拆机一次，建议备好清灰工具之类的，可以为自己的电脑清清灰。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/6.jpg" class="" title="This is an image">
-
-<p>清灰完成后先不要着急合上后盖，先装上电池，开机检查新的固态硬盘能否正常进行读写操作。避免返工。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/7.jpg" class="" title="This is an image">
-
-<p>检查完成后没有问题，先进行关机，因为不取下电池，无法安装后盖。</p>
-<p>之后按照正常流程装回所有部分即可。</p>
-<h2 id="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/Screenshot%202021-03-05%20221546.jpg" alt=""></p>
+<p>然后就会在你所提交的仓库中出现一个新的New pull request请求（也就是分支合并请求）</p>
+<h2 id="OK！本期关于如何将自己的项目Push到github上就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何将自己的项目Push到github上就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何将自己的项目Push到github上就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何将自己的项目Push到github上就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
       <categories>
-        <category>神舟战神TX6-CT5DA</category>
-        <category>固态硬盘</category>
+        <category>git</category>
+        <category>github</category>
       </categories>
       <tags>
-        <tag>神舟战神TX6-CT5DA</tag>
-        <tag>固态硬盘</tag>
+        <tag>git</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -78,12 +50,109 @@
       </tags>
   </entry>
   <entry>
+    <title>如何为自己的博客添加Https</title>
+    <url>/2021/03/05/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/</url>
+    <content><![CDATA[<p>之前为了更好的学习，也就在Github仓库上来建立了自己的个人博客。在使用了一段时间之后，我也发现了一个致命的缺陷，自己的网站使用http协议来进行通讯，安全性有待提升。所以今天花了一点时间将自己的博客成功的转换成支持https协议进行通讯，这样就比较Nice了。</p>
+<h1 id="在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯"><a href="#在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯" class="headerlink" title="在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯"></a>在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯</h1><a id="more"></a>
+
+<h2 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h2><h3 id="1-注册账号"><a href="#1-注册账号" class="headerlink" title="1.注册账号"></a>1.注册账号</h3><p>注册一个<a href="https://github.com/join?source=login" target="_blank" rel="noopener">Github账号</a>或<a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&hl=zh-CN&flowName=GlifWebSignIn&flowEntry=SignUp" target="_blank" rel="noopener">Google账号</a></p>
+<p>这里附上一篇如何注册Google账号的<a href="https://zhuanlan.zhihu.com/p/133530671" target="_blank" rel="noopener">大佬文章</a></p>
+<h3 id="2-建设博客"><a href="#2-建设博客" class="headerlink" title="2.建设博客"></a>2.建设博客</h3><p>建立一个例如  XXX.github.io这样的个人站点</p>
+<p>关于如何建立自己的个人博客，这里我推荐微信公众号管家小e的<a href="https://mp.weixin.qq.com/mp/homepage?__biz=MzU4NDcxNjQ2Ng==&hid=1&sn=debf3376e6c934da259097b1886297d7&scene=18#wechat_redirect" target="_blank" rel="noopener">网站搭建系列文章</a>，个人觉得很方便，很细节。</p>
+<p>当然也可看一下我的<a href="https://sujie-168.top/tags/hexo/">博客文章</a></p>
+<h3 id="3-购买域名"><a href="#3-购买域名" class="headerlink" title="3.购买域名"></a>3.购买域名</h3><p><a href="https://wanwang.aliyun.com/?spm=5176.12901015.0.i12901015.24f1525cA4YEMD" target="_blank" rel="noopener">购买阿里云的域名</a>无法单独ICP备案，也就是如果仅你买了阿里云的域名，而没有买服务器或者主机，那么域名没法单独ICP备案。</p>
+<p>域名前缀可以是带自己名字的站点，后缀推荐购买.com和.cn类型。我购买了一个.top类型的（主要是便宜），购买了三年不到一百元。</p>
+<h3 id="4-实名认证"><a href="#4-实名认证" class="headerlink" title="4.实名认证"></a>4.实名认证</h3><p>购买后进行实名认证，否则无法使用域名。</p>
+<h2 id="二、具体操作"><a href="#二、具体操作" class="headerlink" title="二、具体操作"></a>二、具体操作</h2><p>之前以为无法使用https解析，现在才发现是自己太菜了，不过好在这次一次就弄成功了。所以想将自己的经验分享给大家，希望能对大家有所帮助。</p>
+<p>在阿里开发者社区中找到了一篇与自己博客部署情况基本一致的文章<a href="https://developer.aliyun.com/article/715576" target="_blank" rel="noopener">GitHub/Gitee 静态页托管页部署SSL证书</a>这里供大家作为参考</p>
+<h3 id="1-申请免费的SSL证书"><a href="#1-申请免费的SSL证书" class="headerlink" title="1.申请免费的SSL证书"></a>1.申请免费的SSL证书</h3><p>在搜索框中搜索CA证书</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/5.jpg" alt=""></p>
+<p>找到DV单域名证书，证书个数为20，选点击购买</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/6.jpg" alt=""></p>
+<h3 id="2-域名DNS解析"><a href="#2-域名DNS解析" class="headerlink" title="2.域名DNS解析"></a>2.域名DNS解析</h3><p>首先打开终端cmd 或者 git bash或者 terminal </p>
+<p>执行如下代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ping XXXX.github.io   # xxx为你在github的用户名，也是你的Github page 仓库名</span><br></pre></td></tr></table></figure>
+
+<p>红框位置处的数字就是你博客的ip地址</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/8.jpg" alt=""></p>
+<p>在框内填入得到的ip地址即可</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/4.jpg" alt=""></p>
+<p>此时的域名已经解析成功。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/9.jpg" alt=""></p>
+<h3 id="3-在Github上配置Https"><a href="#3-在Github上配置Https" class="headerlink" title="3.在Github上配置Https"></a>3.在Github上配置Https</h3><p>此时开始配置，打开仓库，选择settings，向下滑动鼠标，滑到下图位置。</p>
+<p>下图说明此时的域名解析是有问题的，需要返回阿里域名控制台重新设置域名解析</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/1.jpg" alt=""></p>
+<p>如下图显示，则证明已配置好域名解析</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/2.jpg" alt=""></p>
+<p>勾选Enforce HTTPS选项即可</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/3.jpg" alt=""></p>
+<p>此时再对你的站点进行访问发现已经支持https协议解析</p>
+<p>这是之前的不安全页面，信息有被监听，被修改的风险</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/0.jpg" alt=""></p>
+<p>这是现在的安全页面，信息不会被监听，被修改，通信过程全程加密</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/01.jpg" alt=""></p>
+<p>这里附上<a href="https://sujie-168.top/">我的博客</a>效果以供参考</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/10.jpg" alt=""></p>
+<h2 id="OK！本期关于如何为自己的个人博客添加Https协议通讯就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何为自己的个人博客添加Https协议通讯就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何为自己的个人博客添加Https协议通讯就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何为自己的个人博客添加Https协议通讯就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+      <categories>
+        <category>https</category>
+      </categories>
+      <tags>
+        <tag>https</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</title>
+    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</url>
+    <content><![CDATA[<p>在学习Linux系统的使用的过程中，在学习了一段时间之后，我觉得有必要为自己的战神（TX6-CT5DA）加装一块128G的固态硬盘用于安装ubuntu18.04系统，本文属于Ubuntu与ROS系列。</p>
+<h1 id="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"><a href="#在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘" class="headerlink" title="在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘"></a>在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</h1><a id="more"></a>
+
+<h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h2><p><font color=#999AAA >项目场景：如果你想使用Windows与Linux两种系统，比如Ubuntu之类的，同时你追求更高的性能，那么显然双系统可能是你更好的选择。</font></p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>1.提前下载好自己需要的Linux安装镜像，比如Ubuntu16.04</p>
+<p>2.准备一个大小至少为32G的U盘</p>
+<p>3.准备一块不小于128G的固态硬盘，不建议机械硬盘，这里就不多解释了。</p>
+<p>这里附上我所购买的<a href="https://m.tb.cn/h.488QMNG?sm=429b6e" target="_blank" rel="noopener">宏想固态</a></p>
+<p>4.准备必要的拆机工具，比如螺丝刀。</p>
+<h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><p>1.首先将笔记本电脑关机，如果是Win10家庭版可以使用快捷组合键Win+X，U，U即可快速关机。</p>
+<p>2.取下笔记本的电池</p>
+<p>3.将笔记本后盖的螺丝拧下来</p>
+<p>4.使用专用的撬棒沿着后盖的纹路一点一点撬开，过程中要胆大心细，每撬开一处可以听到清脆的响声，注意过程中不要太过着急，卡扣比较脆弱，很容易弄断。</p>
+<p><font color=#999AAA >注意：不建议大力出奇迹的想法，出问题的看客责任自负，还有请小白同学慎重考虑是否要亲力亲为。</font></p>
+
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/1.jpg" alt=""></p>
+<p>这个是我拆机后的图片，神舟战神T系列可以看到，英特尔 i5 9400 CPU芯片并不是直接焊在主板上的，也就是说，之后有可能可以更换更高性能的CPU芯片，比如i5 10400，当然这还是需要考虑功耗与散热方面的影响。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/2.jpg" alt=""></p>
+<p>因为是蓝天公模，所以后盖也很有特点。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/3.jpg" alt=""></p>
+<p>这是加上固态硬盘后的图片，直接将其对应好接口插入即可</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/4.jpg" alt=""></p>
+<p>可以看到，还有一个内存条接口和M.2固态硬盘接口</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/5.jpg" alt=""></p>
+<p>难得自己拆机一次，建议备好清灰工具之类的，可以为自己的电脑清清灰。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/6.jpg" alt=""></p>
+<p>清灰完成后先不要着急合上后盖，先装上电池，开机检查新的固态硬盘能否正常进行读写操作。避免返工。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/7.jpg" alt=""></p>
+<p>检查完成后没有问题，先进行关机，因为不取下电池，无法安装后盖。</p>
+<p>之后按照正常流程装回所有部分即可。</p>
+<h2 id="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何为自己的爱机神舟TX6-CT5DA加装固态硬盘就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+      <categories>
+        <category>神舟战神TX6-CT5DA</category>
+        <category>固态硬盘</category>
+      </categories>
+      <tags>
+        <tag>神舟战神TX6-CT5DA</tag>
+        <tag>固态硬盘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何在Ubuntu18.04上训练一个YOLO3模型</title>
     <url>/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<p>最近接触的项目需要用到目标检测算法，而<a href="https://pjreddie.com/darknet/yolo/" target="_blank" rel="noopener">Yolo模型</a>在目标检测领域独具有代表性，可以说入门首选。<a href="https://blog.csdn.net/weixin_42747301/article/details/96636614" target="_blank" rel="noopener">Ubuntu18.04下YOLOv3详解</a>是我找到对于整个目标检测环节描述比较详细的这篇文章，有需要的小伙伴可以参考。</p>
 <h1 id="本文中主要介绍我是如何在Ubuntu18-04上训练一个Yolo3目标检测模型"><a href="#本文中主要介绍我是如何在Ubuntu18-04上训练一个Yolo3目标检测模型" class="headerlink" title="本文中主要介绍我是如何在Ubuntu18.04上训练一个Yolo3目标检测模型"></a>本文中主要介绍我是如何在Ubuntu18.04上训练一个Yolo3目标检测模型</h1><a id="more"></a>
 
-]]></content>
+<p>正在撰写，敬请期待</p>
+<h2 id="OK！本期关于如何在Ubuntu上训练一个Yolo3模型就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何在Ubuntu上训练一个Yolo3模型就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何在Ubuntu上训练一个Yolo3模型就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何在Ubuntu上训练一个Yolo3模型就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
       <categories>
         <category>Ubuntu18.04</category>
         <category>YOLO3</category>
@@ -102,20 +171,17 @@
 <h1 id="在本文中主要介绍我是如何在VS-code中运行从github上fork下来的项目"><a href="#在本文中主要介绍我是如何在VS-code中运行从github上fork下来的项目" class="headerlink" title="在本文中主要介绍我是如何在VS code中运行从github上fork下来的项目"></a>在本文中主要介绍我是如何在VS code中运行从github上fork下来的项目</h1><a id="more"></a>
 
 <p>首先我们需要在VS code中git clone下来一整个项目，本次教程以<a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">PicGO项目</a>为例</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/11.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/11.jpg" alt=""></p>
 <p>打开一个新终端，使用如下命令clone下整个项目。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;Molunerfinn&#x2F;PicGo.git</span><br></pre></td></tr></table></figure>
 
 <p>首先，查看开发文档README.md文件</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/12.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/12.jpg" alt=""></p>
 <p>直接执行命令</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm run electron:serve</span><br></pre></td></tr></table></figure>
 
 <p>会产生下图报错，解法可参考<a href="https://www.jianshu.com/p/db2ac92842d5" target="_blank" rel="noopener">npm ERR! code ELIFECYCLE</a></p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/14.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/14.jpg" alt=""></p>
 <p>发现是没有执行npm install命令安装必要的插件</p>
 <p>在开发文档中可以看到直接使用npm install命令会导致报错，解法可以参考<a href="https://blog.csdn.net/sinat_24140965/article/details/112867445" target="_blank" rel="noopener">npm设置阿里云镜像并使用npm安装yarn</a></p>
 <p>所以我们首先执行以下命令更改镜像源为淘宝源</p>
@@ -129,8 +195,7 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install   # 安装所需的插件</span><br></pre></td></tr></table></figure>
 
 <p>如果命令执行过程中卡在这个页面，解法可以参考<a href="https://blog.csdn.net/weixin_38722500/article/details/105435699" target="_blank" rel="noopener">解决npm一直停在”node ./download-chromedriver.js”的问题</a></p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/13.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/13.jpg" alt=""></p>
 <p>先执行</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install chromedriver --chromedriver_cdnurl&#x3D;http:&#x2F;&#x2F;cdn.npm.taobao.org&#x2F;dist&#x2F;chromedriver</span><br></pre></td></tr></table></figure>
 
@@ -145,40 +210,60 @@
 <p>在目录node_module/app-builder-lib/out/targets/nsis/NsisTarget.js下</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;node_module&#x2F;app-builder-lib&#x2F;out&#x2F;targets&#x2F;nsis&#x2F;NsisTarget.js</span><br><span class="line">async executeMakensis(defines, commands, script) &#123;</span><br><span class="line">    const args &#x3D; this.options.warningsAsErrors &#x3D;&#x3D;&#x3D; false ? [] : [&quot;-WX&quot;];</span><br><span class="line">    &#x2F;&#x2F;此处新增如下代码</span><br><span class="line">    args.push(&quot;-INPUTCHARSET&quot;, &quot;UTF8&quot;);</span><br><span class="line">    &#x2F;&#x2F;结束</span><br><span class="line">    for (const name of Object.keys(defines)) &#123;</span><br><span class="line">      const value &#x3D; defines[name];</span><br><span class="line"></span><br><span class="line">      if (value &#x3D;&#x3D; null) &#123;</span><br><span class="line">        args.push(&#96;-D$&#123;name&#125;&#96;);</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        args.push(&#96;-D$&#123;name&#125;&#x3D;$&#123;value&#125;&#96;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/1.jpg" class="" title="This is an image">
 
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/1.jpg" alt=""></p>
 <p>再次使用如下命令对项目重新进行编译</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm run electron:build     #生产模式  对项目文件进行编译</span><br></pre></td></tr></table></figure>
 
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/2.jpg" class="" title="This is an image">
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/3.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/2.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/3.jpg" alt=""></p>
 <p>执行如下命令,可以看到项目终于运行起来了。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm run electron:serve     #开发模式  让项目运行起来</span><br></pre></td></tr></table></figure>
 
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/4.jpg" class="" title="This is an image">
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/5.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/4.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/5.jpg" alt=""></p>
 <p>查看一下项目跑起来的页面</p>
 <p>第一个页面</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/6.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/6.jpg" alt=""></p>
 <p>第二个页面</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/7.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/7.jpg" alt=""></p>
 <p>可以看到这个项目虽然跑起来了，但是并没有一些内容显示出来，这算是一点缺憾的地方吧。</p>
-<h2 id="OK！本期关于如何在VScode中跑一个从github上fork下来的项目教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何在VScode中跑一个从github上fork下来的项目教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何在VScode中跑一个从github上fork下来的项目教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何在VScode中跑一个从github上fork下来的项目教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+<h2 id="OK！本期关于如何在VScode中跑一个从github上fork下来的项目就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何在VScode中跑一个从github上fork下来的项目就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何在VScode中跑一个从github上fork下来的项目就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何在VScode中跑一个从github上fork下来的项目就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
       <categories>
         <category>VScode</category>
         <category>github</category>
         <category>fork</category>
       </categories>
       <tags>
-        <tag>VScode</tag>
         <tag>github</tag>
+        <tag>VScode</tag>
         <tag>fork</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何解决来自github的警告:Dependabot alerts</title>
+    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</url>
+    <content><![CDATA[<p>最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies" target="_blank" rel="noopener">Dependabot alerts</a>警告</p>
+<a id="more"></a>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg" alt=""></p>
+<p>发现诸如下图的多个官方警告</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg" alt=""></p>
+<p>打开yarn.lock</p>
+<p>将其中代码复制到新建的yarn.txt文件中，然后使用yarn.txt文件通过更改后缀名的方式，将项目的原yarn.lock文件替换。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg" alt=""></p>
+<p>再将项目文件<a href="https://blog.csdn.net/Lucky_LXG/article/details/77849212" target="_blank" rel="noopener">使用git推送部署到github</a>的远端服务器上</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg" alt=""></p>
+<p>好了，问题终于解决了</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg" alt=""></p>
+<h2 id="OK！本期关于如何解决来自github的警告-Dependabot-alerts就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何解决来自github的警告-Dependabot-alerts就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何解决来自github的警告:Dependabot alerts就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何解决来自github的警告:Dependabot alerts就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -188,123 +273,27 @@
 <h1 id="本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客"><a href="#本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客" class="headerlink" title="本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客"></a>本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客</h1><a id="more"></a>
 
 <p>1.首先注册一个账号</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/7.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/7.jpg" alt=""></p>
 <p>2.登录账号</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/8.jpg" class="" title="This is an image">
-
-<p>3.填写需要订阅的博客地址</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/8.jpg" alt=""></p>
+<p>3.填写需要订阅的博客地址，当然这里也可以订阅各位大佬们的博客</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.jpg" alt=""></p>
 <p>4.将信息补充完整</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2.jpg" alt=""></p>
 <p>5.点击add feed添加订阅</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/3.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/3.jpg" alt=""></p>
 <p>6.发现报错</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/4.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/4.jpg" alt=""></p>
 <p>7.更改收件形式</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/5.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/5.jpg" alt=""></p>
 <p>8.RSS订阅操作完成</p>
-<img src="/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/6.jpg" class="" title="This is an image">
-]]></content>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/6.jpg" alt=""></p>
+<h2 id="OK！本期关于介绍了如何订阅我的博客，喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于介绍了如何订阅我的博客，喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于介绍了如何订阅我的博客，喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于介绍了如何订阅我的博客，喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
       <categories>
         <category>操作技巧</category>
       </categories>
       <tags>
         <tag>RSS订阅</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对于一些不可复制文档的操作技巧</title>
-    <url>/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h1 id="对于一些不可复制文档的操作技巧"><a href="#对于一些不可复制文档的操作技巧" class="headerlink" title="对于一些不可复制文档的操作技巧"></a>对于一些不可复制文档的操作技巧</h1><h1 id="背景介绍："><a href="#背景介绍：" class="headerlink" title="背景介绍："></a>背景介绍：</h1><p>如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的，或许接下来的内容会对你很有帮助。</p>
-<a id="more"></a>
-
-<h1 id="项目场景："><a href="#项目场景：" class="headerlink" title="项目场景："></a>项目场景：</h1><p><font color=#999AAA >项目场景：如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的。</font></p>
-<h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p><font color=#999AAA >提示：提示需要登录或付费才能下载该内容，如下图所示。</font></p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/1.jpg" class="" title="This is an image">
-
-
-<h1 id="原因分析："><a href="#原因分析：" class="headerlink" title="原因分析："></a>原因分析：</h1><p><font color=#999AAA >提示：</font></p>
-<p>近年来互联网企业对文章的版权重视和自身盈利模式的需要共同影响。</p>
-<h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1><p><strong>方案1</strong><br>以一篇英语四级作文模板为例，<br>1.首先寻找好你所需要的模板内容<br>2.确保将网页展开完全<br>3.单击鼠标右键，将网页保存在桌面上</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/2.jpg" class="" title="This is an image">
-
-<p>4.在桌面上双击以.html结尾的文件，将会在浏览器中打开它</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/3.jpg" class="" title="This is an image">
-
-<p>5.在浏览器中，你会发现对页面上的文字进行复制是完全可行的。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/4.jpg" class="" title="This is an image">
-
-<p>6.先不要太高兴，在桌面上新建一个.txt文件，将复制来的文本内容粘贴进去。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" class="" title="This is an image">
-
-<p>7.查看文本内容中是否有乱码，没有问题后</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" class="" title="This is an image">
-
-<p>对.txt文档内进行Ctrl+A 及Ctrl+C操作</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/6.jpg" class="" title="This is an image">
-
-<p>8.然后在将其粘贴在自己需要的文本格式中，如.doc/docx文档中。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/7.jpg" class="" title="This is an image">
-
-<p>7-8步骤也可使用无格式粘贴</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/12.jpg" class="" title="This is an image">
-
-<p><strong>方案2</strong><br>选择好自己需要的文字内容，右击选择检查或者按下键盘的F12键，</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/8.jpg" class="" title="This is an image">
-
-<p>找到设置，然后滑到底部，找到Disable javascript进行勾选</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/9.jpg" class="" title="This is an image">
-
-<p>然后不要关闭页面，直接对需要内容进行复制即可。</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/10.jpg" class="" title="This is an image">
-
-<p>在双击打开，接下来就可以随意进行复制了</p>
-<img src="/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/11.jpg" class="" title="This is an image">
-
-<p><font color=#999AAA >   </font></p>
-<h3 id="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于对于一些不可复制文档的操作技巧就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
-      <categories>
-        <category>操作技巧</category>
-      </categories>
-      <tags>
-        <tag>操作技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何解决来自github的警告:Dependabot alerts</title>
-    <url>/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</url>
-    <content><![CDATA[<p>最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies" target="_blank" rel="noopener">Dependabot alerts</a>警告</p>
-<a id="more"></a>
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg" class="" title="This is an image">
-
-<p>发现诸如下图的多个官方警告</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg" class="" title="This is an image">
-
-<p>打开yarn.lock</p>
-<p>将其中代码复制到新建的yarn.txt文件中，然后使用yarn.txt文件通过更改后缀名的方式，将项目的原yarn.lock文件替换。</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg" class="" title="This is an image">
-
-<p>再将项目文件<a href="https://blog.csdn.net/Lucky_LXG/article/details/77849212" target="_blank" rel="noopener">使用git推送部署到github</a>的远端服务器上</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg" class="" title="This is an image">
-
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg" class="" title="This is an image">
-
-<p>好了，问题终于解决了</p>
-<img src="/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg" class="" title="This is an image">
-
-<h2 id="OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于如何解决来自github的警告-Dependabot-alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于如何解决来自github的警告:Dependabot alerts教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h2>]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -316,110 +305,53 @@
 <h3 id="准备工作（搭建Blog基础框架）："><a href="#准备工作（搭建Blog基础框架）：" class="headerlink" title="准备工作（搭建Blog基础框架）："></a>准备工作（搭建Blog基础框架）：</h3><p>Hexo基于Node.js，在搭建过程中还需要安装npm和git,安装Node.js和Git构建本地环境。</p>
 <h5 id="1-Node-js安装："><a href="#1-Node-js安装：" class="headerlink" title="1.Node.js安装："></a>1.Node.js安装：</h5><p>Node.js官网：<a href="http://nodejs.org/zh-cn/" target="_blank" rel="noopener">http://nodejs.org/zh-cn/</a></p>
 <p>进入官网后下载Windows（x64）长期支持版。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/node.js1.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/node.js1.png" alt=""></p>
 <p>安装位置最好选择默认，其他均选择默认，之后点击下一步。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js.png" alt=""></p>
 <p>之后按照提示操作安即可，这里就不再赘述了。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js0.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Node.js0.jpg" alt=""></p>
 <p>如果在安装过程中出现Warning 1909，无法创建快捷方式的问题，（如下图的问题）</p>
 <p>请自行参考百度文库：《win7安装程序警告1909无法创建快捷方式》</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1909.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1909.jpg" alt=""></p>
 <p><a href="https://wenku.baidu.com/view/4ad59110964bcf84b9d57ba5.html" target="_blank" rel="noopener">https://wenku.baidu.com/view/4ad59110964bcf84b9d57ba5.html</a></p>
 <h5 id="2-Git安装："><a href="#2-Git安装：" class="headerlink" title="2.Git安装："></a>2.Git安装：</h5><p>Git下载官网：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></p>
 <p>选择适用自己的平台，由于我的电脑是Windows10系统，所以我选择Windows，点击下载。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git.png" alt=""></p>
 <p>之后选择自己电脑对应的位数下载，我的是X64位电脑。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git1.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git1.png" alt=""></p>
 <p>安装位置选择默认，之后点击下一步Next。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git2.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git2.png" alt=""></p>
 <p>安装很简单，不再赘述</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git5.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/git5.png" alt=""></p>
 <h5 id="3-验证Node-js和Git是否安装成功，即本地环境是否搭建成功。"><a href="#3-验证Node-js和Git是否安装成功，即本地环境是否搭建成功。" class="headerlink" title="3.验证Node.js和Git是否安装成功，即本地环境是否搭建成功。"></a>3.验证Node.js和Git是否安装成功，即本地环境是否搭建成功。</h5><p>win建+R打开运行。输入cmd，进入命令提示符。</p>
 <p>(在英文输入法下)     依次输入：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">git --version</span><br></pre></td></tr></table></figure>
 
 <p>如果出现下图，即表示本地环境搭建成功。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/win1.png" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/win1.png" alt=""></p>
 <h5 id="4-打开GitHub官网"><a href="#4-打开GitHub官网" class="headerlink" title="4.打开GitHub官网"></a>4.打开GitHub官网</h5><p>GitHub官网: <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p>
 <p>点击Sign Up注册账户</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub1.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub1.jpg" alt=""></p>
 <p>注册用户名，绑定邮箱</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub0.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub0.jpg" alt=""></p>
 <p>选择免费的账户</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub13.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub13.jpg" alt=""></p>
 <p>进入如下界面</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub14.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub14.jpeg" alt=""></p>
 <p>点击Skip this step 跳过，进入如下界面</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub20.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub20.jpeg" alt=""></p>
 <p>进入邮箱验证</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub16.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub16.jpeg" alt=""></p>
 <p>登录GitHub账户</p>
-<p>​                     <img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub11.jpeg" class="" title="This is an image"></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub11.jpeg" alt=""></p>
 <p>进入邮箱查看验证码</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub17.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub17.jpeg" alt=""></p>
 <p>输入验证码</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub18.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub18.jpeg" alt=""></p>
 <p>登陆后</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" alt=""></p>
 <p>接下来在桌面或者在哪都行，右击鼠标，点击Git Bash Here</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Git_Bash.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/Git_Bash.jpg" alt=""></p>
 <p>依次输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub邮箱&quot;</span><br></pre></td></tr></table></figure>
 
@@ -427,65 +359,31 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;Github邮箱&quot;</span><br></pre></td></tr></table></figure>
 
 <p>让后回首回车，创建SSH密钥</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608444863.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608444863.jpeg" alt=""></p>
 <p>进入如下路径用记事本打开id_rsa.pub文件，复制文件内容。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608450608.jpeg" class="" title="This is an image">
-
-
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608450608.jpeg" alt=""></p>
 <p>登录GitHub，进入setting</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608439053.jpeg" class="" title="This is an image">
-
-
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/1586608439053.jpeg" alt=""></p>
 <p>选择左边SSH and GPG Keys选项，添加密钥。点击New SSH Key添加</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607944334.jpg" class="" title="This is an image">
-
-
-
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607561800.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607944334.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607561800.jpg" alt=""></p>
 <p>Title可以随便起，把刚才复制的密钥粘贴到Key中，点击Add SSH Key添加完成</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607565940.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607565940.jpg" alt=""></p>
 <p>再次打开Git Bash 并输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
 <p>出现Are you sure…….输入yes回车。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607577804.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607577804.jpg" alt=""></p>
 <p>最后显示You ‘ve successfully……表示连接成功。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607582440.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/CSDN_1586607582440.jpg" alt=""></p>
 <p>点击右上角加号，点击New repository新建GitHub Pages仓库，创建后默认启用HTTPS。</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub5.jpg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub5.jpg" alt=""></p>
 <p>新建的仓库如下，是否让你眼前一亮</p>
-<img src="/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" class="" title="This is an image">
-
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/GitHub19.jpeg" alt=""></p>
 <p>如果操作中有问题请点开下面的链接根据教程安装</p>
 <p><a href="https://blog.csdn.net/weixin_43729943/article/details/103838650?utm_source=app" target="_blank" rel="noopener">https://blog.csdn.net/weixin_43729943/article/details/103838650?utm_source=app</a></p>
 <p>其中包括接下来的一些步骤，可以参考借鉴教程。</p>
-<h3 id="OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于GitHub的注册以及本地环境的搭建教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+<h3 id="OK！本期关于GitHub的注册以及本地环境的搭建就到此为止。接下来后续系列会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于GitHub的注册以及本地环境的搭建就到此为止。接下来后续系列会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于GitHub的注册以及本地环境的搭建就到此为止。接下来后续系列会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于GitHub的注册以及本地环境的搭建就到此为止。接下来后续系列会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
       <categories>
         <category>hexo</category>
         <category>github</category>
@@ -496,95 +394,47 @@
       </tags>
   </entry>
   <entry>
-    <title>我的博客创建之路</title>
-    <url>/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</url>
-    <content><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-2"><a href="#教你免费搭建个人博客-Hexo-amp-Github-2" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  2"></a>教你免费搭建个人博客(Hexo&amp;Github)  2</h1><p>上一期教程我们已经搭建好Blog的基础框架，准备工作应该进行得很顺利，在接下来的基础框架完善中，小编会分为两个部分：</p>
-<h3 id="在本文中主要介绍博客基础功能的构建"><a href="#在本文中主要介绍博客基础功能的构建" class="headerlink" title="在本文中主要介绍博客基础功能的构建"></a>在本文中主要介绍博客基础功能的构建</h3><p>​                                                                                      <a id="more"></a></p>
-<p>首先，在你电脑空间多的地方创建一个存放博客程序，主题和文章的文件夹，可以起名为Blog，</p>
-<p>记住文件路径中最好不要有中文。</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
+    <title>对于一些不可复制文档的操作技巧</title>
+    <url>/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<h1 id="对于一些不可复制文档的操作技巧"><a href="#对于一些不可复制文档的操作技巧" class="headerlink" title="对于一些不可复制文档的操作技巧"></a>对于一些不可复制文档的操作技巧</h1><h1 id="背景介绍："><a href="#背景介绍：" class="headerlink" title="背景介绍："></a>背景介绍：</h1><p>如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的，或许接下来的内容会对你很有帮助。</p>
+<a id="more"></a>
 
-<p>建好之后打开文件夹Blog，鼠标右击，选择【Git Bash Here】进入Git命令行窗口。</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/Git%E5%91%BD%E4%BB%A4.jpg" class="" title="This is an image">
-
-<p>输入以下代码使用npm安装Hexo博客程序</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>如果出现报错</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-error1.jpg" class="" title="This is an image">
-
-<p>使用下面这段代码安装淘宝源npm</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-<p>安装完成</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-success.jpg" class="" title="This is an image">
-
-<p>继续输入下面的代码安装淘宝源cnpm</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-cnpm.jpg" class="" title="This is an image">
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-
-<p>安装初始化组件</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-init.jpg" class="" title="This is an image">
-
-
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-clean.jpg" class="" title="This is an image">
-
-<p>继续输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" class="" title="This is an image">
-
-<p>如果执行hexo d命令出现下图错误是因为缺少hexo-deployer-git插件</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-error.jpg" class="" title="This is an image">
-
-<p>执行以下命令即可解决</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-deployer-git</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/error-saving.jpg" class="" title="This is an image">
-
-<p>继续执行</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -- save hexo-deployer-git</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-reinstall.jpg" class="" title="This is an image">
-
-<p>问题解决</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g &amp;&amp; gulp</span><br></pre></td></tr></table></figure>
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp.jpg" class="" title="This is an image">
-
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp-else.jpg" class="" title="This is an image">
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>打开浏览器按照提示输入<a href="http://localhost:4000进行预览">http://localhost:4000进行预览</a></p>
-<p>预览完成后 按下 Ctrl + C 结束预览</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-s.jpg" class="" title="This is an image">
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<p>将写好的博客进行部署Github仓库</p>
-<img src="/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-success.jpg" class="" title="This is an image">
-
-<p>打开   http://用户名.github.io    进行查看</p>
-<p>最后小编列举一些博客常用命令</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &quot;博客标题&quot;</span><br><span class="line">hexo clean       清除静态缓存</span><br><span class="line">hexo g           生成博客文章</span><br><span class="line">hexo s           生成页面进行本地预览</span><br><span class="line">hexo d           部署博客文章</span><br><span class="line">hexo g &amp;&amp; gulp   博客压缩以提高访问速率</span><br></pre></td></tr></table></figure>
-
-<h3 id="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！这一期期关于Hexo以及本地环境的配置教程就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+<h1 id="项目场景："><a href="#项目场景：" class="headerlink" title="项目场景："></a>项目场景：</h1><p><font color=#999AAA >项目场景：如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的。</font></p>
+<h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p><font color=#999AAA >提示：提示需要登录或付费才能下载该内容，如下图所示。</font></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/1.jpg" alt=""></p>
+<h1 id="原因分析："><a href="#原因分析：" class="headerlink" title="原因分析："></a>原因分析：</h1><p><font color=#999AAA >提示：</font></p>
+<p>近年来互联网企业对文章的版权重视和自身盈利模式的需要共同影响。</p>
+<h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1><p><strong>方案1</strong><br>以一篇英语四级作文模板为例，<br>1.首先寻找好你所需要的模板内容<br>2.确保将网页展开完全<br>3.单击鼠标右键，将网页保存在桌面上</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/2.jpg" alt=""></p>
+<p>4.在桌面上双击以.html结尾的文件，将会在浏览器中打开它</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/3.jpg" alt=""></p>
+<p>5.在浏览器中，你会发现对页面上的文字进行复制是完全可行的。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/4.jpg" alt=""></p>
+<p>6.先不要太高兴，在桌面上新建一个.txt文件，将复制来的文本内容粘贴进去。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" alt=""></p>
+<p>7.查看文本内容中是否有乱码，没有问题后</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/5.jpg" alt=""></p>
+<p>对.txt文档内进行Ctrl+A 及Ctrl+C操作</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/6.jpg" alt=""></p>
+<p>8.然后在将其粘贴在自己需要的文本格式中，如.doc/docx文档中。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/7.jpg" alt=""></p>
+<p>7-8步骤也可使用无格式粘贴</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/12.jpg" alt=""></p>
+<p><strong>方案2</strong><br>选择好自己需要的文字内容，右击选择检查或者按下键盘的F12键，</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/8.jpg" alt=""></p>
+<p>找到设置，然后滑到底部，找到Disable javascript进行勾选</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/9.jpg" alt=""></p>
+<p>然后不要关闭页面，直接对需要内容进行复制即可。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/10.jpg" alt=""></p>
+<p>在双击打开，接下来就可以随意进行复制了</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/11.jpg" alt=""></p>
+<p><font color=#999AAA >   </font></p>
+<h3 id="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于对于一些不可复制文档的操作技巧就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于对于一些不可复制文档的操作技巧就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于对于一些不可复制文档的操作技巧就到此为止。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
       <categories>
-        <category>hexo</category>
-        <category>yilia</category>
+        <category>操作技巧</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-        <tag>yilia</tag>
+        <tag>操作技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -597,27 +447,24 @@
 <h2 id="安装流程-虚拟机-Ubuntu安装教程"><a href="#安装流程-虚拟机-Ubuntu安装教程" class="headerlink" title="安装流程   虚拟机+Ubuntu安装教程"></a>安装流程   虚拟机+Ubuntu安装教程</h2><h4 id="方案1-VMware虚拟机安装ubuntu16-04"><a href="#方案1-VMware虚拟机安装ubuntu16-04" class="headerlink" title="方案1.VMware虚拟机安装ubuntu16.04"></a>方案1.VMware虚拟机安装ubuntu16.04</h4><p>可以参考火耳软件安装的<a href="http://mp.weixin.qq.com/s?__biz=MzU0MTg5NDkzNA==&amp;mid=2247498154&amp;idx=1&amp;sn=a2947b925ffb530d7690149c3b3f2232&amp;chksm=fb2049d3cc57c0c5743da147a8b8408eb73ce61262f833eb6ecca7fb433a347241a08e2273c7&amp;mpshare=1&amp;scene=23&amp;srcid=1228eMZg5msv2v0islQnklYv&amp;sharer_sharetime=1609158326393&amp;sharer_shareid=970e485b437aa6a7a3cae61fe48119bd#rd" target="_blank" rel="noopener">这篇文章</a></p>
 <h4 id="方案2-Virtual-Box虚拟机安装ubuntu16-04"><a href="#方案2-Virtual-Box虚拟机安装ubuntu16-04" class="headerlink" title="方案2.Virtual Box虚拟机安装ubuntu16.04"></a>方案2.Virtual Box虚拟机安装ubuntu16.04</h4><p>可以参考博客园上的<a href="https://www.cnblogs.com/luengmingbiao/p/10859905.html" target="_blank" rel="noopener">这篇文章</a></p>
 <h2 id="安装流程-ubuntu16-04-ROS（kentic）"><a href="#安装流程-ubuntu16-04-ROS（kentic）" class="headerlink" title="安装流程     ubuntu16.04+ROS（kentic）"></a>安装流程     ubuntu16.04+ROS（kentic）</h2><p><a href="http://wiki.ros.org/melodic/Installation/Ubuntu" target="_blank" rel="noopener">ROS官方安装教程</a></p>
-<h4 id="1-注意对应好版本"><a href="#1-注意对应好版本" class="headerlink" title="1.注意对应好版本"></a>1.注意对应好版本</h4><img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/ROS_Installation_Options.jpg" class="" title="This is an image">
-
+<h4 id="1-注意对应好版本"><a href="#1-注意对应好版本" class="headerlink" title="1.注意对应好版本"></a>1.注意对应好版本</h4><p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/ROS_Installation_Options.jpg" alt=""></p>
 <h4 id="2-配置软件源"><a href="#2-配置软件源" class="headerlink" title="2.配置软件源"></a>2.配置软件源</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo sh -c &#39;echo &quot;deb http:&#x2F;&#x2F;packages.ros.org&#x2F;ros&#x2F;ubuntu $(lsb_release -sc) main&quot; &gt; &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;ros-latest.list&#39;</span><br></pre></td></tr></table></figure>
 
 <p>使用alinyun镜像源即可</p>
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/apply_install_sources.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/apply_install_sources.jpg" alt=""></p>
 <h4 id="3-添加密钥"><a href="#3-添加密钥" class="headerlink" title="3.添加密钥"></a>3.添加密钥</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-key adv --keyserver &#39;hkp:&#x2F;&#x2F;keyserver.ubuntu.com:80&#39; --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/add_key.jpg" class="" title="This is an image">
 
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/add_key.jpg" alt=""></p>
 <h4 id="4-安装ROS（桌面完整版Desktop-Full）"><a href="#4-安装ROS（桌面完整版Desktop-Full）" class="headerlink" title="4.安装ROS（桌面完整版Desktop-Full）"></a>4.安装ROS（桌面完整版Desktop-Full）</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-melodic-desktop-full</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full1.jpg" class="" title="This is an image">
 
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full11.jpg" class="" title="This is an image">
 
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full2.jpg" class="" title="This is an image">
-
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full3.jpg" class="" title="This is an image">
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full1.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full11.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full2.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full3.jpg" alt=""></p>
 <p>独立功能包的安装，其中PACKAGE代表功能包的名称</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-melodic-PACKAGE</span><br></pre></td></tr></table></figure>
 
@@ -628,15 +475,16 @@
 
 
 
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/sudo_rosdep_init_error.jpg" alt=""></p>
+<p>直接创建一个sources.list.d文件夹，在目录下新建一个20-default.list文件</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/init_error_save.jpg" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">rosdep update</span><br></pre></td></tr></table></figure>
 
 
 
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosdep_update_error.jpg" alt=""></p>
 <p>如遇到rosdep update时出现错误，可以参考<a href="https://blog.csdn.net/mrh1714348719/article/details/103803110?utm_source=app" target="_blank" rel="noopener">CSDN大佬文章</a></p>
-
-
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosdep_update.jpg" alt=""></p>
 <h4 id="6-配置环境变量"><a href="#6-配置环境变量" class="headerlink" title="6.配置环境变量"></a>6.配置环境变量</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">echo &quot;source &#x2F;opt&#x2F;ros&#x2F;kinetic&#x2F;setup.bash&quot; &gt;&gt; ~&#x2F;.bashrc</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source ~&#x2F;.bashrc</span><br></pre></td></tr></table></figure>
@@ -644,9 +492,11 @@
 <h4 id="7-安装完成检测"><a href="#7-安装完成检测" class="headerlink" title="7.安装完成检测"></a>7.安装完成检测</h4><p>打开terminal输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">roscore</span><br></pre></td></tr></table></figure>
 
-<img src="/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/roscore.jpg" class="" title="This is an image">
-
-<h3 id="OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续教程会分几期更新。喜欢的话请支持订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/roscore.jpg" alt=""></p>
+<p>运行turtlesim程序</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosrun_rurtlesim.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosrun_turtlesim_turtle_teleop_key.jpg" alt=""></p>
+<h3 id="OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！本期关于虚拟机ubuntu16-04与ROS-kinetic的安装就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！本期关于虚拟机ubuntu16.04与ROS-kinetic的安装就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
       <categories>
         <category>ubuntu16.04</category>
         <category>ROS-kinetic</category>
@@ -654,6 +504,88 @@
       <tags>
         <tag>ubuntu16.04</tag>
         <tag>ROS-kinetic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的博客创建之路</title>
+    <url>/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</url>
+    <content><![CDATA[<h1 id="教你免费搭建个人博客-Hexo-amp-Github-2"><a href="#教你免费搭建个人博客-Hexo-amp-Github-2" class="headerlink" title="教你免费搭建个人博客(Hexo&amp;Github)  2"></a>教你免费搭建个人博客(Hexo&amp;Github)  2</h1><p>上一期教程我们已经搭建好Blog的基础框架，准备工作应该进行得很顺利，在接下来的基础框架完善中，小编会分为两个部分：</p>
+<h3 id="在本文中主要介绍博客基础功能的构建"><a href="#在本文中主要介绍博客基础功能的构建" class="headerlink" title="在本文中主要介绍博客基础功能的构建"></a>在本文中主要介绍博客基础功能的构建</h3><a id="more"></a>
+
+<p>首先，在你电脑空间多的地方创建一个存放博客程序，主题和文章的文件夹，可以起名为Blog，</p>
+<p>记住文件路径中最好不要有中文。</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/blog.jpg" alt=""></p>
+<p>建好之后打开文件夹Blog，鼠标右击，选择【Git Bash Here】进入Git命令行窗口。</p>
+
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/Git%E5%91%BD%E4%BB%A4.jpg" alt=""></p>
+<p>输入以下代码使用npm安装Hexo博客程序</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>如果出现报错</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-error1.jpg" alt=""></p>
+<p>使用下面这段代码安装淘宝源npm</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<p>安装完成</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-success.jpg" alt=""></p>
+<p>继续输入下面的代码安装淘宝源cnpm</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-install-cnpm.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p>安装初始化组件</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-init.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-clean.jpg" alt=""></p>
+<p>继续输入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp-else.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s  # 在http:&#x2F;&#x2F;localhost:4000&#x2F;进行本地预览</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-s.jpg" alt=""></p>
+<p>如果执行hexo d命令出现下图错误是因为缺少hexo-deployer-git插件</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-error.jpg" alt=""></p>
+<p>执行以下命令即可解决</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/error-saving.jpg" alt=""></p>
+<p>继续执行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -- save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/npm-reinstall.jpg" alt=""></p>
+<p>问题解决</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g &amp;&amp; gulp</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp.jpg" alt=""></p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-g&&gulp-else.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>打开浏览器按照提示输入<a href="http://localhost:4000进行预览">http://localhost:4000进行预览</a></p>
+<p>预览完成后 按下 Ctrl + C 结束预览</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-s.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>将写好的博客进行部署Github仓库</p>
+<p><img src="https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/hexo-d-success.jpg" alt=""></p>
+<p>打开   https://用户名.github.io    进行查看</p>
+<p>最后小编列举一些博客常用命令</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &quot;博客标题&quot;</span><br><span class="line">hexo clean       清除静态缓存</span><br><span class="line">hexo g           生成博客文章</span><br><span class="line">hexo s           生成页面进行本地预览</span><br><span class="line">hexo d           部署博客文章</span><br><span class="line">hexo g &amp;&amp; gulp   博客压缩以提高访问速率</span><br></pre></td></tr></table></figure>
+
+<h3 id="OK！这一期期关于Hexo以及本地环境的配置就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"><a href="#OK！这一期期关于Hexo以及本地环境的配置就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！" class="headerlink" title="OK！这一期期关于Hexo以及本地环境的配置就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！"></a>OK！这一期期关于Hexo以及本地环境的配置就到此为止。接下来后续内容会分几期更新。喜欢的话请支持、转发、订阅！同时也欢迎各位大佬指出不足之处！在此本人万分感谢！</h3><h3 id="注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收"><a href="#注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收" class="headerlink" title="(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)"></a>(注明：本文中的方法在撰写过程中得益于对各位前辈大佬的经验进行借鉴和吸收)</h3>]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>yilia</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>yilia</tag>
       </tags>
   </entry>
 </search>

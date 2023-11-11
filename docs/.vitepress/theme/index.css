@@ -1,0 +1,348 @@
+/* gray mode */
+/* html {
+  filter: grayscale(95%);
+  -webkit-filter: grayscale(95%);
+  -moz-filter: grayscale(95%);
+  -ms-filter: grayscale(95%);
+  -o-filter: grayscale(95%);
+  filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=.95);
+} */
+
+
+/* click midium image */
+/* Ref: https://bddxg.top/article/note/vitepress%E4%BC%98%E5%8C%96/%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7.html */
+
+.medium-zoom-overlay {
+    z-index: 20;
+}
+  
+.medium-zoom-image {
+    z-index: 21;
+}
+
+/* h1 text center */
+.vp-doc h1 {
+	text-align: center;
+}
+
+/* h2 ~ h5 add highlight */
+
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6,
+.vp-doc .header-anchor:before {
+  color: unset !important;
+  background: linear-gradient(to right, #6fbef7, #ba89ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: max-content;
+}
+
+/* dark font color fixed */
+:root {
+  --vp-c-text-dark-1: rgba(255, 255, 197, .86);
+  --vp-c-text-dark-2: rgba(207, 216, 231, .6);
+  --vp-c-text-dark-3: rgba(207, 216, 231, .38)
+}
+  
+/* bolder 、blockquote style fixed */
+.vp-doc strong {
+  font-weight:bolder!important;
+  color:var(--vp-c-brand);
+  padding:0 4px
+}
+.vp-doc blockquote {
+  border-left:unset!important;
+  border-radius:4px;
+  background-color:var(--vp-badge-tip-bg);
+  position:relative
+}
+.vp-doc blockquote:before {
+  content:"";
+  position:absolute;
+  left:0;
+  width:4px;
+  height:100%;
+  border-radius:6px;
+  background-color:var(--vp-c-brand-3)
+}
+
+/* code style fixed */
+li>code,
+table code,
+p code {
+  word-break:break-word;
+  color:#ba89ff!important;
+  font-weight:700
+}
+
+/* herf style fixed */
+.vp-doc a {
+  text-decoration:underline
+}
+
+
+/* page layout adjust */
+
+/* @media (min-width: 1440px) {
+  .VPSidebar {
+    padding-left: 20px !important;
+    width: 240px !important;
+  }
+  .VPNavBar .title {
+    padding-left: 10px !important;
+    width: 230px !important;
+  }
+  .VPContent.has-sidebar {
+    padding-left: 250px !important;
+    padding-right: 5vw !important;
+  }
+  .VPNavBar .curtain {
+    width: 100% !important;
+  }
+  .VPNavBar .content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+@media (min-width: 960px) {
+  .VPDoc {
+    padding: 32px 0 0 !important;
+  }
+  .VPNavBar .content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+.VPNavBar {
+  padding-right: 20px !important;
+}
+.VPNavBar .container {
+  margin: unset;
+  max-width: unset;
+}
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+}
+.aside {
+  max-width: 200px !important;
+  padding-left: 0 !important;
+} */
+
+/* .DocSearch-Button */
+/* @media only screen and (min-width: 500px) {
+  .has-sidebar .VPNavBarSearch {
+      margin-left:240px
+  }
+}  */
+
+/* ref cite footnote*/
+/* 脚注超链接样式修正 */
+.footnote-backref,
+.footnote-ref a {
+  padding-right: unset !important;
+}
+
+.footnote-item {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* icon chinese zodiac */
+
+.chinese-zodiac {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -10.5px;
+  top: -1px;
+  background: #fff;
+  border: 1px solid #84b9e5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+/* home page custom */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #bd34fe, #41d1ff)
+}
+
+@media (min-width: 960px) {
+  .image-src {
+      max-width:600px!important;
+      max-height: 600px!important;
+      position: absolute;
+      top: 100%!important;
+      left: 60%!important;
+      opacity: .8
+  }
+
+  .image-bg {
+      width: 600px!important;
+      height: 600px!important;
+      top: 100%!important;
+      left: 60%!important
+  }
+}
+
+.VPFeatures.VPHomeFeatures .items {
+  justify-content: space-around
+}
+
+.container>.items .item {
+  position: relative;
+  width: 280px!important;
+  height: 280px;
+  box-shadow: inset 20px 20px 20px #0000000d,25px 35px 20px #0000000d,25px 30px 30px #0000000d,inset -20px -20px 25px #ffffff1a;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  display: grid;
+  place-content: center
+}
+
+.container>.items .item:nth-child(1) {
+  border-radius: 47% 53% 70% 30%/30% 43% 57% 70%
+}
+
+.container>.items .item:nth-child(2) {
+  border-radius: 61% 39% 52% 48%/44% 59% 41% 56%
+}
+
+.container>.items .item:nth-child(3) {
+  border-radius: 65% 35% 31% 69%/57% 59% 41% 43%
+}
+
+.container>.items .item:hover {
+  border-radius: 50%
+}
+
+.container>.items .item:before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  box-shadow: inset 2px 5px 10px #0000001a,inset -2px -5px 10px #fff,15px 15px 10px #0000000d,15px 10px 15px #00000006;
+  border-radius: 50%;
+  opacity: .9
+}
+
+.container>.items .item:after {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 30%;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  box-shadow: inset 2px 5px 10px #0000001a,inset -2px -5px 10px #fff,15px 15px 10px #0000000d,15px 10px 15px #00000006;
+  border-radius: 50%;
+  opacity: .9
+}
+
+.container>.items .item .VPFeature {
+  border: none!important;
+  background-color: transparent!important
+}
+
+.container>.items .item .VPFeature .box {
+  position: relative;
+  max-width: inherit;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 40px;
+  gap: 15px
+}
+
+.VPFeature .box .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: inset 2px 5px 10px #0000001a,inset -2px -5px 10px #fff,15px 15px 10px #0000000d,15px 10px 15px #00000006;
+  display: grid;
+  place-content: center;
+  font-size: 2rem
+}
+
+.VPFeature .box .title {
+  max-width: 150px;
+  text-shadow: black .1rem .1rem .2rem,black .1rem .1rem .2rem,black .1rem .1rem .2rem,black .1rem .1rem .2rem
+}
+
+.VPFeature .box .details {
+  display: none
+}
+
+.VPFeature .box .link-text-value {
+  position: relative;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px #0003;
+  opacity: .7;
+  transition: opacity .3s
+}
+
+.container>.items .item:nth-child(1) .link-text-value {
+  background-color: #ff0f5b
+}
+
+.container>.items .item:nth-child(2) .link-text-value {
+  background-color: #be01fe
+}
+
+.container>.items .item:nth-child(3) .link-text-value {
+  background-color: #01b4ff
+}
+
+.VPFeature .box .link-text-value:hover {
+  opacity: 1
+}
+
+.VPFeature .box .link-text-value:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 65%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #ffffff80
+}
+
+
+/* Home background */
+.Layout:has(.VPHome) {
+  background: url(https://images.bddxg.top//blog/202309161007282.webp) no-repeat;
+  background-size: cover;
+  color: var(--vp-c-text-dark-1);
+  -webkit-user-select: none;
+  user-select: none
+}
+
+.VPHome .tagline,.VPFooter .message,.VPFooter .copyright {
+  color: var(--vp-c-text-dark-1)
+}
+
+:root {
+  --vp-c-text-dark-1: rgba(255, 255, 197, 0.86);
+  --vp-c-text-dark-2: rgba(207, 216, 231, 0.6);
+  --vp-c-text-dark-3: rgba(207, 216, 231, 0.38);
+  --vp-c-text-light-1: rgba(21, 24, 24, 0.16);
+}

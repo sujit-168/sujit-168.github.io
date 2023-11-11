@@ -1,0 +1,6 @@
+.autocorrectignore
+.history
+.vscode
+node_modules
+cache
+dist

@@ -1,7 +1,7 @@
 ---
 title: 我的博客创建之路
 date: 2020-04-11 13:14:58
-categories: [hexo,github]
+categories: [note]
 tags: [hexo,github]
 copyright: true
 ---

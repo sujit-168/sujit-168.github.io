@@ -1,7 +1,7 @@
 ---
 title: 无监督学习与聚类之 K-means 算法
 date: 2022-05-19 15:02:41
-categories: [无监督学习，聚类]
+categories: [note]
 tags: [无监督学习，聚类]
 copyright: true
 ---

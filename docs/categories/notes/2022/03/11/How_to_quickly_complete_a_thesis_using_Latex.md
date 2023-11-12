@@ -1,7 +1,7 @@
 ---
 title: 如何快速使用 Latex 完成论文
 date: 2022-03-11 19:41:34
-categories: [Latex]
+categories: [note]
 tags: [Latex]
 copyright: true
 ---

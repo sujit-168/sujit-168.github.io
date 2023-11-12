@@ -1,7 +1,7 @@
 ---
 title: 虚拟机 ubuntu16.04 与 ROS-kinetic
 date: 2020-12-28 19:52:06
-categories: [ubuntu16.04,ROS-kinetic]
+categories: [note]
 tags: [ubuntu16.04,ROS-kinetic]
 copyright: true
 ---

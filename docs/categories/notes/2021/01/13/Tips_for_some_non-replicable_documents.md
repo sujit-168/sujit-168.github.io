@@ -1,7 +1,7 @@
 ---
 title: 对于一些不可复制文档的操作技巧
 date: 2021-01-13 21:05:38
-categories: [操作技巧]
+categories: [note]
 tags: [操作技巧]
 copyright: true
 ---

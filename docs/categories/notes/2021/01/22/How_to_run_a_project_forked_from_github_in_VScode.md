@@ -1,7 +1,7 @@
 ---
 title: 如何在 VScode 中跑一个从 github 上 fork 下来的项目
 date: 2021-01-22 13:24:04
-categories: [VScode,github,fork]
+categories: [note]
 tags: [VScode,github,fork]
 copyright: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 机器学习 - 数理基础
 date: 2022-03-12 06:53:57
-categories: [Machine Learning]
+categories: [note]
 tags: [Machine Learning]
 copyright: true
 ---

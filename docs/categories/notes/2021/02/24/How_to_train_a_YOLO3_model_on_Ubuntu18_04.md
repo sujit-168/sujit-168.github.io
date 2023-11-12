@@ -1,7 +1,7 @@
 ---
 title: 如何在 Ubuntu18.04 上训练一个 YOLO3 模型
 date: 2021-02-24 17:27:16
-categories: [Ubuntu18.04,YOLO3,Machine Learning]
+categories: [note]
 tags: [Ubuntu18.04,YOLO3,Machine Learning]
 toc: true
 copyright: true

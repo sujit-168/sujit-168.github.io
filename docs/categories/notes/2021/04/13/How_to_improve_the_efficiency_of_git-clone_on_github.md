@@ -1,7 +1,7 @@
 ---
 title: 如何提高在 github 上 git clone 的效率
 date: 2021-04-13 08:17:00
-categories: [github]
+categories: [note]
 tags: [github]
 copyright: true
 ---

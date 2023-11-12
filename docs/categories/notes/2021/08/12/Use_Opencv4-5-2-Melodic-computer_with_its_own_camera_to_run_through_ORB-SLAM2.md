@@ -1,7 +1,7 @@
 ---
 title: 用 Opencv4.5.2+Melodic+ 电脑自带摄像头跑通 ORB-SLAM2
 date: 2021-08-12 23:38:30
-categories: [Opencv4.5.2,ORB-SLAM2]
+categories: [note]
 tags: [Opencv4.5.2,ORB-SLAM2]
 copyright: true
 ---

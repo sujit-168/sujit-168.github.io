@@ -1,7 +1,7 @@
 ---
 title: How to push to github
 date: 2021-03-05 21:39:09
-categories: [git,github]
+categories: [note]
 tags: [git,github]
 ---
 

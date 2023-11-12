@@ -1,7 +1,7 @@
 ---
 title: '如何解决来自 github 的警告:Dependabot alerts'
 date: 2021-01-22 17:06:01
-categories: [github]
+categories: [note]
 tags: [github]
 copyright: true
 ---

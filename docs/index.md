@@ -8,9 +8,6 @@ hero:
   name: 甦傑的博客
   text: 专注 & 洞察 & 分享
   tagline: 欢迎来到我的博客，在这里你可以看到很多内容
-  # image:
-  #   src: /avatar_1.png
-  #   alt: Logo
   actions:
     - theme: brand
       text: 快速开始
@@ -31,5 +28,5 @@ features:
   - icon:
       src: img/svg/knowledge.svg
     title: 乐于分享
-    details: 关于分享，有形的物品越分越少，无形的知识越分越多。在记录与分享的过程中, 梳理所学, 交流所得, 必有所获。
+    details: 关于分享，有形的物品越分越少，无形的知识越分越多。在记录与分享的过程中，梳理所学，交流所得，必有所获。
 ---

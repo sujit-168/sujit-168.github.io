@@ -329,15 +329,11 @@ p code {
 
 /* Home background */
 .Layout:has(.VPHome) {
-  background: url(https://images.bddxg.top//blog/202309161007282.webp) no-repeat;
+  background: url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
   background-size: cover;
   color: var(--vp-c-text-dark-1);
   -webkit-user-select: none;
   user-select: none
-}
-
-.VPHome .tagline,.VPFooter .message,.VPFooter .copyright {
-  color: var(--vp-c-text-dark-1)
 }
 
 :root {

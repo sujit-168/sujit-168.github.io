@@ -81,4 +81,4 @@ showComment: false
   <img src="https://img.shields.io/badge/-GitHub%20Pages-222?logo=GitHub-Pages&logoColor=FFF" alt="GitHub Pages" style="display: inline-block;" />&nbsp;
   <img src="https://img.shields.io/badge/-Adobe%20Photoshop-A9A9A9?logo=Adobe-Photoshop&logoColor=31A8FF" alt="Adobe Photoshop" style="display: inline-block;" />&nbsp;
 </p>
-<img width=100% src="../public/avatar_1.jpg" alt="尾部图"/>
+<img width=100% src="/avatar.jpg" alt="尾部图"/>

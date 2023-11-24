@@ -34,7 +34,7 @@
 .vp-doc h6,
 .vp-doc .header-anchor:before {
   color: unset !important;
-  background: linear-gradient(to right, #6fbef7, #ba89ff);
+  background: linear-gradient(to right, #6fbef7, #ffbb89);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -329,7 +329,7 @@ p code {
 
 /* Home background */
 .Layout:has(.VPHome) {
-  background: url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+  background: url(https://mirror.ghproxy.com/https://raw.githubusercontent.com/sujit-168/sujit-168.github.io/main/docs/public/background.png) no-repeat;
   background-size: cover;
   color: var(--vp-c-text-dark-1);
   -webkit-user-select: none;

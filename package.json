@@ -25,8 +25,7 @@
     "vite": "^4.5.0",
     "vitepress": "1.0.0-rc.20",
     "vitepress-plugin-mermaid": "^2.0.15",
-    "vue": "^3.3.8",
-    "d3-color": ">=3.1.0"
+    "vue": "^3.3.8"
   },
   "dependencies": {
     "@antv/g2plot": "2.4.31",

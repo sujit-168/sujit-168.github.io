@@ -88,43 +88,49 @@ stoplds$
 
 #### 速度：2bytes
 
-速度 speed 采用转/分钟 (RPM) 为单位。数据为 16bits 定点数。
-其中低 6bits 为小数部分，传输时分割为两个字节。先传输低八位数据 speed[7:0]. 再传输高八位数据 speed[15:8];
+- 速度 speed 采用转/分钟 (RPM) 为单位。数据为 16bits 定点数。
+- 其中低 6bits 为小数部分，传输时分割为两个字节。先传输低八位数据 speed[7:0], 再传输高八位数据 speed[15:8];
 
 #### 数据：16bytes
 
 包含 4 个点的距离信息 distance[13:0] 和强度信息 strength[15:0]. 
-数据 0 为第 i 点数据。
-敖据 1 为第 i-1 点数据。
-数据 2 为第 i-2 点数据。
-数据 3 为第 i-3 点数据：
+- 数据 0 为第 i 点数据。
+- 数据 1 为第 i-1 点数据。
+- 数据 2 为第 i-2 点数据。
+- 数据 3 为第 i-3 点数据：
+
 每个点数据为 4bytes. 传输顺序为 BYTE0 >BYTE3;
-BYTE0 = distance[7:0]:
-BYTE1= (flag0, flag1, distance[13:8]} ;其中
-flag0: 1bit，为'I' 表示距离数据无效
-flag1: 1bit，为 'I'表示强度信息异常
-BYTE2 = strength[7:0]
-BYTE3 = strength[15:8]
+- BYTE0 = distance[7:0]:
+- BYTE1= (flag0, flag1, distance[13:8]} ;其中
+- flag0: 1bit，为'I' 表示距离数据无效
+- flag1: 1bit，为 'I'表示强度信息异常
+- BYTE2 = strength[7:0]
+- BYTE3 = strength[15:8]
 
 #### 数据校验：2bytes
 
 对前 20bytes 校验，校验 checksum[15:0]，先传输低位，
+
 ​**校验公式如下：**
-​chk32= 32' d0;
-​chk16= 16' d0;
+
+```cpp
+​chk32= 32'd0;
+​chk16= 16'd0;
 ​for( i-0; i<10; i=i+1)
 ​chk32 = (chk32 << 1) + (mem[2 * i+1]<<8 +mem[2 * i])；
 ​chk16 = (chk32 & 16'h7fff) + (chk32 >> 15);
 ​chk16 = chk16 & 16’ h7fff;
-​checksum = chk16 ;
+​checksum = chk16;
+```
 其中 mem 中存的是数据包前 20 字节数据。
 
 ### 示例如下：
 
-angle = 0; 	//角度为 0-3
-distance = (I' b0, I'b0, 14 d5000);	//单位为毫米
-strength = 16' d1024;
-speed = 16' d20832; 	//5. 425rad/st325.5RPM--->转定点数
+- angle = 0; 	//角度为 0-3
+- distance = (I' b0, I'b0, 14 d5000);	//单位为毫米
+- strength = 16' d1024;
+- speed = 16' d20832; 	//5. 425rad/st325.5RPM--->转定点数
+
 则数据如下：
 FA A0 60 51 88 13 00 01 88 13 00 01 88 13 00 01 88 13 00 01 93 23
 

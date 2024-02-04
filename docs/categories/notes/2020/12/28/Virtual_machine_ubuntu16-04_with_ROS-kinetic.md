@@ -34,7 +34,7 @@ copyright: true
 
 ### 1.注意对应好版本
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/ROS_Installation_Options.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/ROS_Installation_Options.jpg)
 
 ### 2.配置软件源
 
@@ -63,7 +63,7 @@ sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubunt
 使用`alinyun`镜像软件源即可
 
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/apply_install_sources.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/apply_install_sources.jpg)
 
 ### 3.添加密钥
 
@@ -73,7 +73,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 
 
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/add_key.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/add_key.jpg)
 
 ### 4.安装 ROS（桌面完整版 Desktop-Full）
 
@@ -81,13 +81,13 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 sudo apt install ros-melodic-desktop-full
 ```
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full1.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/install_ros_kentic_full1.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full11.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/install_ros_kentic_full11.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full2.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/install_ros_kentic_full2.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/install_ros_kentic_full3.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/install_ros_kentic_full3.jpg)
 
 独立功能包的安装，其中 PACKAGE 代表功能包的名称
 
@@ -107,11 +107,11 @@ sudo apt install ros-melodic-slam-gmapping
 sudo rosdep init
 ```
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/sudo_rosdep_init_error.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/sudo_rosdep_init_error.jpg)
 
 直接创建一个 sources.list.d 文件夹，在目录下新建一个 20-default.list 文件
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/init_error_save.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/init_error_save.jpg)
 
 ```
 rosdep update
@@ -119,13 +119,13 @@ rosdep update
 
 
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosdep_update_error.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/rosdep_update_error.jpg)
 
 如遇到 rosdep update 时出现错误，可以参考[CSDN 大佬文章](https://blog.csdn.net/mrh1714348719/article/details/103803110?utm_source=app)
 
 
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosdep_update.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/rosdep_update.jpg)
 
 ### 6.配置环境变量
 
@@ -145,13 +145,13 @@ source ~/.bashrc
 roscore
 ```
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/roscore.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/roscore.jpg)
 
 运行 turtlesim 程序
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosrun_rurtlesim.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/rosrun_rurtlesim.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/rosrun_turtlesim_turtle_teleop_key.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Virtual_machine_ubuntu16-04_with_ROS-kinetic/rosrun_turtlesim_turtle_teleop_key.jpg)
 
 ## 致谢
 

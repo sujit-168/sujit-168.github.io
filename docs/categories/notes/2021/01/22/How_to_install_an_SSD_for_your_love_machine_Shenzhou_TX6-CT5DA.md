@@ -41,31 +41,32 @@ copyright: true
 
 <font color=#999AAA >注意：不建议大力出奇迹的想法，出问题的看客责任自负，还有请小白同学慎重考虑是否要亲力亲为。</font>
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/1.jpg)
+
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/1.jpg)
 
 这个是我拆机后的图片，神舟战神 T 系列可以看到，英特尔 i5 9400 CPU 芯片并不是直接焊在主板上的，也就是说，之后有可能可以更换更高性能的 CPU 芯片，比如 i5 10400，当然这还是需要考虑功耗与散热方面的影响。
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/2.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/2.jpg)
 
 因为是蓝天公模，所以后盖也很有特点。
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/3.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/3.jpg)
 
 这是加上固态硬盘后的图片，直接将其对应好接口插入即可
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/4.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/4.jpg)
 
 可以看到，还有一个内存条接口和 M.2 固态硬盘接口
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/5.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/5.jpg)
 
 难得自己拆机一次，建议备好清灰工具之类的，可以为自己的电脑清清灰。
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/6.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/6.jpg)
 
 清灰完成后先不要着急合上后盖，先装上电池，开机检查新的固态硬盘能否正常进行读写操作。避免返工。
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/7.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_an_SSD_for_your_love_machine_Shenzhou_TX6-CT5DA/7.jpg)
 
 检查完成后没有问题，先进行关机，因为不取下电池，无法安装后盖。
 

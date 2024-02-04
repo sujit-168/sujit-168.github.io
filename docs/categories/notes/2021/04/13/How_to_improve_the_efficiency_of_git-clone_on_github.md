@@ -24,10 +24,10 @@ copyright: true
 git clone https://github.com/XXXX/仓库名.git                               
 ```
 
-使用方法也非常简单，在 https://github.com/，之前添加 https://ghproxy.com 即可
+使用方法也非常简单，在 https://github.com/，之前添加 https://mirror.ghproxy.com 即可
 
 ```
-git clone  https://ghproxy.com/https://github.com/XXXX/仓库名.git
+git clone  https://mirror.ghproxy.com/https://github.com/XXXX/仓库名.git
 ```
 
 有时也会遇到将项目 push 到 github 远端速度慢的问题，这里也可以逆向思维，切换镜像源的方法，来提升上传速度。

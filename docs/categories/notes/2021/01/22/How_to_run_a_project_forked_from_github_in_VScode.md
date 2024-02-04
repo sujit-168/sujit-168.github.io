@@ -16,7 +16,7 @@ copyright: true
 
 首先我们需要在 VS code 中 git clone 下来一整个项目，本次教程以[PicGO 项目](https://github.com/Molunerfinn/PicGo)为例
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/11.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/11.jpg)
 
 打开一个新终端，使用如下命令 clone 下整个项目。
 
@@ -28,7 +28,7 @@ git clone https://github.com/Molunerfinn/PicGo.git
 
 首先，查看开发文档 README.md 文件
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/12.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/12.jpg)
 
 ## 开始运行
 直接执行命令
@@ -39,7 +39,7 @@ npm run electron:serve
 
 会产生下图报错，解法可参考[npm ERR! code ELIFECYCLE](https://www.jianshu.com/p/db2ac92842d5)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/14.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/14.jpg)
 
 ## 安装依赖
 发现是没有执行 npm install 命令安装必要的插件
@@ -72,7 +72,7 @@ npm install   # 安装所需的插件
 
 如果命令执行过程中卡在这个页面，解法可以参考[解决 npm 一直停在"node ./download-chromedriver.js"的问题](https://blog.csdn.net/weixin_38722500/article/details/105435699)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/13.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/13.jpg)
 
 先执行
 
@@ -118,7 +118,7 @@ async executeMakensis(defines, commands, script) {
 
 
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/1.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/1.jpg)
 
 再次使用如下命令对项目重新进行编译
 
@@ -126,9 +126,9 @@ async executeMakensis(defines, commands, script) {
 npm run electron:build     #生产模式  对项目文件进行编译
 ```
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/2.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/2.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/3.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/3.jpg)
 
 执行如下命令，可以看到项目终于运行起来了。
 
@@ -136,9 +136,9 @@ npm run electron:build     #生产模式  对项目文件进行编译
 npm run electron:serve     #开发模式  让项目运行起来
 ```
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/4.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/4.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/5.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/5.jpg)
 
 ## 查看预览
 
@@ -146,11 +146,11 @@ npm run electron:serve     #开发模式  让项目运行起来
 
 第一个页面
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/6.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/6.jpg)
 
 第二个页面
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/7.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_run_a_project_forked_from_github_in_VScode/7.jpg)
 
 可以看到这个项目虽然跑起来了，但是并没有一些内容显示出来，这算是一点缺憾的地方吧。
 

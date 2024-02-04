@@ -16,35 +16,35 @@ top: 4
 ## 具体操作
 1. 首先注册一个账号
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/7.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/7.jpg)
 
 2. 登录账号
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/8.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/8.jpg)
 
 3. 填写需要订阅的博客地址，当然这里也可以订阅各位大佬们的博客
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/1.jpg)
 
 4. 将信息补充完整
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/2.jpg)
 
 5. 点击 add feed 添加订阅
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/3.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/3.jpg)
 
 6. 发现报错
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/4.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/4.jpg)
 
 7. 更改收件形式
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/5.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/5.jpg)
 
 8. RSS 订阅操作完成
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/6.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_subscribe_to_my_personal_blog/6.jpg)
 
 ## 致谢
 

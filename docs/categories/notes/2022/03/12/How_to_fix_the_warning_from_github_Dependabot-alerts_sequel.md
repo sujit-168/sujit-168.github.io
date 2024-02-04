@@ -36,7 +36,7 @@ npm update    # 根据package.json来更新已有依赖
 
 之后重新 git push 即可解决大部分的警告信息
 
-![1](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202110131645193.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_the_warning_from_github_Dependabot-alerts_sequel/202110131645193.jpg)
 
 - 修改后再推送到远端，即可解决警告
 

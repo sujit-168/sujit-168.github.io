@@ -297,7 +297,7 @@ start plot!
 
 可以看到本次聚类迭代了 3 次即完成了聚类，聚类结果正确率高达 99%
 
-![](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202205191509097.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/K-means_algorithm_for_unsupervised_learning_and_clustering/202205191509097.png)
 
 从图上来看，聚类中心位于类别的中心，本次聚类还是比较成功的。
 
@@ -351,7 +351,7 @@ start plot!
 
 可以看到本次聚类迭代了 3 次也完成了聚类，但聚类结果正确率相较之前，正确率明显下降，只有 58%
 
-![](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202205191509687.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/K-means_algorithm_for_unsupervised_learning_and_clustering/202205191509687.png)
 
 从图上可以看到聚类结果有明显的聚类错误，主要原因是，测试样本中的类间距离较近，导致无法准确聚类
 

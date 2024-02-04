@@ -47,11 +47,11 @@ tags: [https]
 
 在搜索框中搜索 CA 证书
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/5.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/5.jpg)
 
 找到 DV 单域名证书，证书个数为 20，选点击购买
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/6.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/6.jpg)
 
 ### 域名 DNS 解析
 
@@ -65,15 +65,15 @@ ping XXXX.github.io   # xxx为你在github的用户名，也是你的Github page
 
 红框位置处的数字就是你博客的 ip 地址
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/8.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/8.jpg)
 
 在框内填入得到的 ip 地址即可
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/4.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/4.jpg)
 
 此时的域名已经解析成功。
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/9.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/9.jpg)
 
 ### 在 Github 上配置 Https
 
@@ -81,29 +81,29 @@ ping XXXX.github.io   # xxx为你在github的用户名，也是你的Github page
 
 下图说明此时的域名解析是有问题的，需要返回阿里域名控制台重新设置域名解析
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/1.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/1.jpg)
 
 如下图显示，则证明已配置好域名解析
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/2.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/2.jpg)
 
 勾选 Enforce HTTPS 选项即可
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/3.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/3.jpg)
 
 此时再对你的站点进行访问发现已经支持 https 协议解析
 
 这是之前的不安全页面，信息有被监听，被修改的风险
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/0.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/0.jpg)
 
 这是现在的安全页面，信息不会被监听，被修改，通信过程全程加密
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/01.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/01.jpg)
 
 这里附上[我的博客](https://sujie-168.top/)效果以供参考
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/10.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/10.jpg)
 
 ## 致谢
 

@@ -34,7 +34,7 @@ tags: [Markdown]
 
 比如使用 B 站作为自己的视频存储仓库，使用外链引用即可
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E6%88%91%E5%9C%A8%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E7%9A%84markdown%E8%AF%AD%E6%B3%95%E5%92%8C%E6%8A%80%E5%B7%A7/1.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/Markdown_syntax_and_techniques_I_commonly_use_in_blogging/1.jpg)
 
 ```
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">

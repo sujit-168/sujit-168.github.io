@@ -13,7 +13,7 @@ tags: [QT]
 
 <!-- more -->
 
-![image-20220228102151880](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202202281023428.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_did_the_3D-WebCam_of_the_QT_host_computer_go_from_an_idea_to_an_application_product/1.png)
 
 ## 想法
 
@@ -60,7 +60,7 @@ Ubuntu18.04 64 bit
 
 美颜后的 UI 界面
 
-![img](https://raw.githubusercontent.com/ruoxi521/Stereo_QT/main/image/stereo_01.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_did_the_3D-WebCam_of_the_QT_host_computer_go_from_an_idea_to_an_application_product/stereo_01.png)
 
 ## 功能模块
 

@@ -42,9 +42,9 @@ tags: [Actions,github,CI/CD]
 
 具体操作可以参考我之前的两篇文章
 
-1.[我的博客创建之路 1](http://sujie-168.top/2020/04/11/我的博客创建之路1/)    
+1.[我的博客创建之路 1](https://blog.sujie-168.top/categories/notes/2020/04/11/My_Blog_Creation_1)    
 
-2.[我的博客创建之路 2](http://sujie-168.top/2020/04/16/我的博客创建之路2/)
+2.[我的博客创建之路 2](https://blog.sujie-168.top/categories/notes/2020/04/16/My_Blog_Creation_2)
 
 也可以参考管家小 e 的[网站搭建](https://mp.weixin.qq.com/mp/homepage?__biz=MzU4NDcxNjQ2Ng==&hid=1&sn=debf3376e6c934da259097b1886297d7&scene=18#wechat_redirect)专栏的前三篇来解决
 
@@ -73,7 +73,7 @@ tags: [Actions,github,CI/CD]
 
 将创建好的 Personal Access Token 添加到仓库的 Secrets 中，并设置名称，如下图：
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/7.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/7.jpg)
 
 - 创建 workflow 脚本
 
@@ -81,11 +81,11 @@ tags: [Actions,github,CI/CD]
 
 点击项目下的 Actions
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/8.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/8.jpg)
 
 点击 Set up this workflow
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/9.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/9.jpg)
 
 配置 main.yml 文件，设置工作流
 
@@ -175,19 +175,19 @@ git push origin dev
 
 1.初始化云端 Ubuntu 服务器的部署环境
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/11.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/11.jpg)
 
 2.将本次提交推送到 Github 远端仓库
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/12.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/12.jpg)
 
 3.workflow 流程概览
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/13.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/13.jpg)
 
 4.工作流 workflow 运行成功，本次部署成功
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/10.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_add_HTTPS_to_your_blog/10.jpg)
 
 ## 参考
 

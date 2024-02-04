@@ -10,8 +10,9 @@ tags: [git,github]
 之前刚开始接触 Github 的时候，有太多需要注意的点需要 care，所以很多时候都畏手畏脚，这次就记录一下如何 push 自己的项目到 github 仓库上
 
 <!-- more -->
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/2.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/push%20to%20github.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/push%20to%20github.jpg)
 
 ```
 git checkout -b dev #创建一个名为dev的新分支并切换到该分支，如已有dev分支，去掉-b即可切换到dev分支
@@ -24,29 +25,29 @@ git push origin dev
 
 ## 发起合并请求
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/Screenshot%202021-03-05%20221546.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/Screenshot%202021-03-05%20221546.jpg)
 
 然后就会在你所提交的仓库中出现一个新的 New pull request 请求（也就是分支合并请求）
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/pullrequest.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/pullrequest.jpg)
 
 拉取本次 pull request 请求
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/request.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/request.jpg)
 
 设置 assigners，label 等信息
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/set.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/set.jpg)
 
 ## 如何合并
 
 点击 merge（合并）本次 pull request
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/merge.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/merge.jpg)
 
 本次 push to github 完成
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/How-to-push-to-github/ok.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How-to-push-to-github/ok.jpg)
 
 ## 致谢
 

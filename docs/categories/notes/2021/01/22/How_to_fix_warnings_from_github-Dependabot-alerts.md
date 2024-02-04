@@ -12,11 +12,11 @@ copyright: true
 
 <!-- more-->
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/1.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_warnings_from_github-Dependabot-alerts/1.jpg)
 
 发现诸如下图的多个官方警告
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/2.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_warnings_from_github-Dependabot-alerts/2.jpg)
 
 
 ## 更新依赖配置
@@ -25,19 +25,19 @@ copyright: true
 
 将其中代码复制到新建的 yarn.txt 文件中，然后使用 yarn.txt 文件通过更改后缀名的方式，将项目的原 yarn.lock 文件替换。
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/3.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_warnings_from_github-Dependabot-alerts/3.jpg)
 
 ## 更新远端依赖
 
 再将项目文件[使用 git 推送部署到 github](https://blog.csdn.net/Lucky_LXG/article/details/77849212)的远端服务器上
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/5.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_warnings_from_github-Dependabot-alerts/5.jpg)
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/6.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_warnings_from_github-Dependabot-alerts/6.jpg)
 
 好了，问题终于解决了
 
-![](https://github.com/sujit-168/Blog-Picture/raw/master/My%20Blog/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/7.jpg)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_fix_warnings_from_github-Dependabot-alerts/7.jpg)
 
 ## 致谢
 

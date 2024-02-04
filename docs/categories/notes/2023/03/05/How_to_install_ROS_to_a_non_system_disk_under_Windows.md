@@ -36,21 +36,21 @@ choco upgrade ros-melodic-desktop_full -y --execution-timeout=0
 
 ### 第一步
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202303052228184.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_ROS_to_a_non_system_disk_under_Windows/202303052228184.png)
 
 ### 第二步
-![](https://ghproxy.com/https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202303052232891.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_ROS_to_a_non_system_disk_under_Windows/202303052232891.png)
 
 
 ### 第三步
-![](https://ghproxy.com/https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202303052233966.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_ROS_to_a_non_system_disk_under_Windows/202303052233966.png)
 
 创建功能包，会报错用户邮箱不合法，应该是用户名为中文的问题，所以，参考[这篇文章](https://answers.microsoft.com/zh-hans/windows/forum/all/%E6%80%8E%E4%B9%88%E6%A0%B7%E5%BD%BB%E5%BA%95/89cf7d46-2c15-41b0-81a7-2fcf80a496a8)中的 netplwiz 部分进行修改
-![](https://ghproxy.com/https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202303052235037.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_ROS_to_a_non_system_disk_under_Windows/202303052235037.png)
 完成修改后，重新启动电脑，成功解决无法正常创建功能包的问题
-![](https://ghproxy.com/https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202303052236251.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_ROS_to_a_non_system_disk_under_Windows/202303052236251.png)
 catkin_make 编译工作空间后，rosrun 运行 hello_world 测试功能包的效果
-![](https://ghproxy.com/https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202303052238227.png)
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_install_ROS_to_a_non_system_disk_under_Windows/202303052238227.png)
 配置环境变量
 ``` cmd
 F: && cd \catkin_ws\devel && .\setup.bat

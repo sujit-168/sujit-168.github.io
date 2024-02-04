@@ -32,17 +32,17 @@ copyright: true
 
 这里以 Overleaf 为例来进行演示
 
-![image-20220311200006995](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202203112026908.png)
+![image-20220311200006995](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_quickly_complete_a_thesis_using_Latex/202203112026908.png)
 
 可以看到编写 Latex 语法的界面还是很清爽的
 
-![image-20220311200245640](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202203112026816.png)
+![image-20220311200245640](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_quickly_complete_a_thesis_using_Latex/202203112026816.png)
 
 还有就是最令人头疼的参考文献，这里也只需要两步即可解决。
 
 - 第一步，以 BibTex 形式导出参考文献
 
-  ![image-20220311200908618](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202203112026160.png)
+  ![image-20220311200908618](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_quickly_complete_a_thesis_using_Latex/202203112026160.png)
 
 - 将导出的文献粘贴到.bib 文件中，添加一行 ref03, 删除 2018Natural,
 
@@ -57,11 +57,11 @@ copyright: true
   ```
 
 
-![image-20220311201350130](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202203112026288.png)
+![image-20220311201350130](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_quickly_complete_a_thesis_using_Latex/202203112026288.png)
 
 - 第二步，将参语法添加在对应位置，重新编译即可。
 
-![image-20220311201559536](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202203112026969.png)
+![image-20220311201559536](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_quickly_complete_a_thesis_using_Latex/202203112026969.png)
 
 
 
@@ -69,7 +69,7 @@ copyright: true
 
 1. 不太熟悉数学公式语法怎么办，可以使用[myscript](https://webdemo.myscript.com/views/math/index.html)的网页版，手写生成数学公式，之后复制粘贴即可。
 
-![image-20220311202224091](https://raw.githubusercontent.com/sujit-168/Blog-Picture/master/Typora/202203112026436.png)
+![image-20220311202224091](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_quickly_complete_a_thesis_using_Latex/202203112026436.png)
 
 
 

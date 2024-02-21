@@ -8,7 +8,8 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "new": "node create-page.js"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.54.4",

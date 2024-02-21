@@ -125,10 +125,9 @@ connection = mysql.connector.connect(
 ```
 解决方法
 ```shell
-su(.ros1) tianbot@ros2go:~/Workspace/HotinGo$ export DB_USER=tianbot
-(.ros1) tianbot@ros2go:~/Workspace/HotinGo$ export DB_PASSWORD=tianbot
-(.ros1) tianbot@ros2go:~/Workspace/HotinGo$ export DB_PASSWORD=sujie-168
-(.ros1) tianbot@ros2go:~/Workspace/HotinGo$ python main.py 
+export DB_USER=tianbot
+export DB_PASSWORD=sujie-168
+python main.py 
 ```
 
 ## 效果展示

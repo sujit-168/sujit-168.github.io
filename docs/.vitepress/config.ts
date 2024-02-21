@@ -15,7 +15,7 @@ export default withMermaid(
     lastUpdated: true, // 显示最后更新时间
 
     head, // <head>内标签配置
-    markdown: markdown, // Markdown配置
+    markdown: markdown, // Markdown 配置
     vue: {
       template: {
         compilerOptions: {
@@ -24,6 +24,18 @@ export default withMermaid(
       },
     },
     themeConfig, // 主题配置
+    sitemap: {
+      hostname: 'https://blog.sujie-168.top',
+      transformItems: (items) => {
+        // add new items or modify/filter existing items
+        items.push({
+          url: '/extra-page',
+          changefreq: 'monthly',
+          priority: 0.8
+        })
+        return items
+      }
+    }
   }),
 );
 

@@ -61,7 +61,6 @@ const time = new Date().toLocaleTimeString("zh-CN", {
 // format dir Path
 const dirPath = path.resolve(
   "docs",
-  "categories",
   ...options.section.map((section) => section.toString()),
   year.toString(),
   month.toString(),
@@ -82,8 +81,8 @@ const fullDate = `${date} ${time}`;
 const content = `---
 title: ${pageName}
 date: ${fullDate}
-categories: ${options.categories.join(", ")}
-tags: ${options.tags.join(", ")}
+categories: [${options.categories.join(", ")}]
+tags: [${options.tags.join(", ")}]
 copyright: true
 ---
 `;

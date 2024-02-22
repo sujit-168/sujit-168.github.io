@@ -8,9 +8,10 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '我的分类',
     items: [
-      { text: '随笔', link: '/categories/notes/index', activeMatch: '/categories/notes/' }
+      { text: '随笔', link: '/notes/index', activeMatch: '/notes/' },
+      { text: 'ROS', link: '/ros/index', activeMatch: '/ros/' }
     ],
-    activeMatch: '/categories/'
+    activeMatch: '/'
   },
   {
     text: '标签',

@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /categories/notes/index
+      link: /notes/index
     - theme: alt
       text: 在 GitHub 查看
       link: https://github.com/sujit-168/

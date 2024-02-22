@@ -5,15 +5,16 @@ import { getChineseZodiac, getChineseZodiacAlias } from '../theme/utils.ts';
 const sync = fg.sync;
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/categories/notes/': getItemsByDate("categories/notes"),
+  '/notes/': getItemsByDate("notes"),
+  '/ros/': getItemsByDate("ros"),
 
   // '/courses/slam/': getItems("courses/java"),
 }
 
 /**
- * 根据 某分类/YYYY/MM/dd/xxx.md 的目录格式, 获取侧边栏分组及分组下标题
+ * 根据 某分类/YYYY/MM/dd/xxx.md 的目录格式，获取侧边栏分组及分组下标题
  * 
- * /categories/issues/2022/07/20/xxx.md
+ * /issues/2022/07/20/xxx.md
  * 
  * @param path 扫描基础路径
  * @returns {DefaultTheme.SidebarItem[]}
@@ -101,7 +102,7 @@ function getItemsByDate (path: string) {
 }
 
 /**
- * 根据 某小课/序号-分组/序号-xxx.md 的目录格式, 获取侧边栏分组及分组下标题
+ * 根据 某小课/序号 - 分组/序号-xxx.md 的目录格式，获取侧边栏分组及分组下标题
  * 
  * courses/mybatis/01-MyBatis基础/01-xxx.md
  * 

@@ -2,7 +2,7 @@
 title: How to push to github
 date: 2021-03-05 21:39:09
 categories: [note]
-tags: [git,github]
+tags: [Git,github]
 ---
 
 # 本文将介绍如何将自己的项目 push 到 github 上，如何及时发布自己项目的每次更新

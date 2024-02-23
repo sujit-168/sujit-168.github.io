@@ -6,6 +6,7 @@ lastUpdated: false
 showComment: false
 ---
 
+<img width=100% src="../public/img/svg/about-me-header.svg" alt="头部图" />
 <p align="center">
   <a href="https://blog.sujit-168.top/" target="_blank" style="display: inline-block;">
     <img alt="个人主页" src="https://img.shields.io/badge/个人站点-甦傑-lightblue?logo=blogger&logoColor=lightblue" />
@@ -82,3 +83,5 @@ showComment: false
   <img src="https://img.shields.io/badge/-Adobe%20Photoshop-A9A9A9?logo=Adobe-Photoshop&logoColor=31A8FF" alt="Adobe Photoshop" style="display: inline-block;" />&nbsp;
 </p>
 <img width=100% src="../public/avatar.jpg" alt="尾部图"/>
+
+<img width=100% src="../public/img/svg/about-footer.svg" alt="尾部图"/>

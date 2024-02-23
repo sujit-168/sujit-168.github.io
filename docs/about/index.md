@@ -1,18 +1,19 @@
 ---
-title: 如何过好此生
+title: 个人知识库
 aside: false
 editLink: false
 lastUpdated: false
 ---
 
+<img width=100% src="../public/img/svg/about-repos-header.svg" alt="头部图" />
+
 <div align="center">
-    📝 <strong>人生</strong>
+    📝 <strong>用来记录、分享生活中给予自己内心感触的每个瞬间</strong>
 </div>
 
 ---
 
-::: tip 电影
-
+::: tip 坚守本心，勇敢前行
 
 1. 这个世界缺的不是完美的人，而是从心底给出的真心，正义，无畏与同情。
 
@@ -27,7 +28,9 @@ lastUpdated: false
 6. 如果有机会提前了解你的人生，知道青春也不过只有这些日子，不知是否你还会在意那些世俗要你们在意的事情，比如占有多少才更荣耀，拥有什么才能被爱。愿你在被打击时，记起你的珍贵，抵抗恶意。愿你在迷茫时，坚信你的珍贵。爱你所爱，行你所行，听从你心，无问西东。
 
 <p align="right">
-    -- 电影无问西东
+    节选自电影《无问西东》
 </p>
 
 :::
+
+<img width=100% src="../public/img/svg/about-footer.svg" alt="尾部图"/>

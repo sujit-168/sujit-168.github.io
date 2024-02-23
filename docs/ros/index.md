@@ -1,7 +1,7 @@
 ---
-title: ROS 小记
-date: 2024-02-22 09:58:08
-copyright: true
+showArticleMetadata: false
+editLink: false
+lastUpdated: false
 ---
 
 # ROS 小记

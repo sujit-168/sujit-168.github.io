@@ -8,10 +8,7 @@ copyright: true
 
 
 
-<h1 align="center">
-    <strong>⭐️机器学习⭐️数理基础</strong>
-</h1>
-<!--more-->
+# ⭐️机器学习⭐️数理基础
 
 这是一张关于机器学习数理基础的表格
 

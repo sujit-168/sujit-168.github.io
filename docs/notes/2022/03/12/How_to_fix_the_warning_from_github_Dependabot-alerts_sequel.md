@@ -6,9 +6,7 @@ tags: [github]
 copyright: true
 ---
 
-<h1 align = "center">
-    <strong>如何解决来自 github 的警告-Dependabot-alerts 续篇</strong>
-</h1>
+# 如何解决来自 github 的警告-Dependabot-alerts 续篇
 
 首先解释一下，什么是[Dependabot](https://dependabot.com/)
 

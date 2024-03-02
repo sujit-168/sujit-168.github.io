@@ -14,6 +14,13 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '/'
   },
   {
+    text: '我的笔记',
+    items: [
+      { text: '跟着开源项目学 vslam', link: '/vslam/index', activeMatch: '/vslam/'},
+    ],
+    activeMatch: '/'
+  },
+  {
     text: '标签',
     link: '/tags',
     activeMatch: '/tags'

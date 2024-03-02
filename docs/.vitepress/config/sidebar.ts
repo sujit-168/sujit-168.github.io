@@ -8,7 +8,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/notes/': getItemsByDate("notes"),
   '/ros/': getItemsByDate("ros"),
 
-  // '/courses/slam/': getItems("courses/java"),
+  '/vslam/': getItems("vslam"),
 }
 
 /**

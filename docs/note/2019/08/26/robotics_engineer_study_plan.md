@@ -6,7 +6,7 @@ date: 2019/08/26 20:12
 articleTitle: 机器人工程师学习计划
 articleLink: https://zhuanlan.zhihu.com/p/22266788
 categories:
- - notes
+ - note
 tags:
  - Robotic Engineer
 ---

@@ -2,7 +2,9 @@
 title: 如何将 ROS 安装到 Windows 下的非系统盘中
 date: 2023-03-05 14:21:49
 categories: [note]
-tags: [ROS、Windows]
+tags: 
+ - ROS
+ - Windows
 copyright: true
 ---
 

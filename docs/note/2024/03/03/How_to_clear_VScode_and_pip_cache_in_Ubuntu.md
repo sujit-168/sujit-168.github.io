@@ -63,8 +63,8 @@ sudo apt-get autoremove             # 删除系统不再使用的孤立软件
 ### ms-vscode.cpptools
 
 根据这篇 [discussions](https://github.com/microsoft/vscode-cpptools/discussions/10637) 的提示，我尝试清理了 VSCode 的缓存，发现并没有影响 VScode 的使用。
-```shell
 
+```shell
 cd ~/.cache/ && du vscode-cpptools/ -h     # 查看vscode-cpptools 目录大小
 cd vscode-cpptools/ && rm -rf *            # 删除vscode-cpptools 目录下所有文件及目录
 cd .. && du vscode-cpptools/ -h            # 验证vscode-cpptools 目录大小

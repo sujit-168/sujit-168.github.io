@@ -17,6 +17,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '我的笔记',
     items: [
       { text: '跟着开源项目学 vslam', link: '/vslam/index', activeMatch: '/vslam/'},
+      { text: '基于 ROS 学习机器人学', link: '/robot/index', activeMatch: '/robot/'},
     ],
     activeMatch: '/'
   },

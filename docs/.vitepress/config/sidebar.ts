@@ -9,6 +9,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/ros/': getItemsByDate("ros"),
 
   '/vslam/': getItems("vslam"),
+  '/robot/': getItems("robot"),
 }
 
 /**

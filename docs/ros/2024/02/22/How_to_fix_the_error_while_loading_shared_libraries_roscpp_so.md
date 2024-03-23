@@ -1,6 +1,6 @@
 ---
 title: 如何修复 roscore 加载共享库时的错误：libroscpp.so
-date: 2024-02-22 09:58:08
+date: 2024-02-22 09:58
 categories: 
     - ROS
 tags: 

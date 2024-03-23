@@ -1,6 +1,6 @@
 ---
 title: 如何清除 Ubuntu 中的 journal、VScode 和 pip 缓存
-date: 2024-03-03 11:51:20
+date: 2024-03-03 11:51
 categories: [note]
 tags: [VScode,  pip, journal, Ubuntu]
 copyright: true

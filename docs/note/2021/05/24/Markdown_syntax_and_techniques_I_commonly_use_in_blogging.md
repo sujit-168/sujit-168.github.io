@@ -1,6 +1,6 @@
 ---
 title: 我在写博客常用的 markdown 语法和技巧
-date: 2021-05-24 23:05:09
+date: 2021-05-24 23:05
 categories: [note]
 tags: [Markdown]
 ---

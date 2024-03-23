@@ -1,6 +1,6 @@
 ---
 title: 如何基于 Qt-Designer 设计 PySide6 的 UI 界面
-date: 2024-03-06 17:50:41
+date: 2024-03-06 17:50
 categories: [note, app]
 tags: [PySide6,  Qt Designer]
 copyright: true

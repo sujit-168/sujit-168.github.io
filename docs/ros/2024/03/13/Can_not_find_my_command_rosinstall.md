@@ -1,6 +1,6 @@
 ---
 title: 找不到命令 rosinstall
-date: 2024-03-13 18:37:19
+date: 2024-03-13 18:37
 categories: [ROS]
 tags: [ROS1, .rosinstall]
 copyright: true

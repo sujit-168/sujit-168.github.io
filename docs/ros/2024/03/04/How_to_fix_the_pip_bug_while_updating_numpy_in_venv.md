@@ -1,6 +1,6 @@
 ---
 title: 修复在 venv 虚拟环境中无法升级 numpy 的 pip 错误
-date: 2024-03-04 17:39:37
+date: 2024-03-04 17:39
 categories: [ROS]
 tags: [venv,  ROS,  pip]
 copyright: true

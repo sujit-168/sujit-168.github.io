@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: 2019-08-26 13:22:24
+date: 2019-08-26 13:22
 categories: [note]
 tags: [first,page]
 ---

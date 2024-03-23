@@ -1,6 +1,6 @@
 ---
 title: 如何在 VScode 中跑一个从 github 上 fork 下来的前后端项目
-date: 2024-02-21 14:24:04
+date: 2024-02-21 14:24
 categories: [note, app]
 tags: [VScode,github,fork,frontend,backend,TkinterDesign]
 copyright: true

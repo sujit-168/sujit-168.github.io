@@ -54,7 +54,7 @@ const [year, month, day] = date.split("-");
 const time = new Date().toLocaleTimeString("zh-CN", {
   hour: "numeric",
   minute: "numeric",
-  second: "numeric",
+  // second: "numeric",
   hour12: false,
 });
 

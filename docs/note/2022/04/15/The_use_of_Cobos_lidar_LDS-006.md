@@ -1,6 +1,6 @@
 ---
 title: 科沃斯激光雷达 LDS-006 的使用
-date: 2022-04-15 20:41:15
+date: 2022-04-15 20:41
 categories: [note]
 tags: 
  - 科沃斯

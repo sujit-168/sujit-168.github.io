@@ -2,7 +2,7 @@
 title: rosinstall 究竟是如何工作的？
 isOriginal: false
 author: answers.ros.org
-date: 2024-03-13 18:08:28
+date: 2024-03-13 18:08
 articleTitle: How exactly does .rosinstall work?
 articleLink: https://answers.ros.org/question/9213/how-exactly-does-rosinstall-work/
 categories: [ROS]

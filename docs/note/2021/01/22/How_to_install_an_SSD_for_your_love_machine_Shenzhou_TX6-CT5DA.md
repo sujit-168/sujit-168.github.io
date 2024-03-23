@@ -1,6 +1,6 @@
 ---
 title: 如何为自己的爱机神舟 TX6-CT5DA 加装固态硬盘
-date: 2021-01-22 14:19:19
+date: 2021-01-22 14:19
 categories: [note]
 tags: 
  - 神舟战神 TX6-CT5DA

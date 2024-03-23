@@ -1,6 +1,6 @@
 ---
 title: 如何订阅我的个人博客
-date: 2021-03-01 10:54:35
+date: 2021-03-01 10:54
 categories: [note]
 tags: [RSS]
 copyright: true

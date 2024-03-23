@@ -1,6 +1,6 @@
 ---
 title: 基于 ROS1 多机框架的修改
-date: 2024-03-11 22:49:54
+date: 2024-03-11 22:49
 categories: [ROS]
 tags: [ROS1,  tf_prefix,  RobotNameSpace,  group]
 copyright: true

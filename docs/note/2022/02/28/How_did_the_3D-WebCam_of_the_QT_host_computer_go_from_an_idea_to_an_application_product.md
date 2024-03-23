@@ -1,6 +1,6 @@
 ---
 title: QT 上位机之 3D_WebCam 我是如何从一个想法变为一款应用
-date: 2022-02-28 10:15:48
+date: 2022-02-28 10:15
 categories: [note]
 tags: [QT]
 ---

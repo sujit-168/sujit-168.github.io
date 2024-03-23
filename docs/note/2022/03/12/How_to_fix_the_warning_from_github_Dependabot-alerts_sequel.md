@@ -1,6 +1,6 @@
 ---
 title: 如何解决来自 github 的警告 Dependabot-alerts 续篇
-date: 2022-03-12 06:42:02
+date: 2022-03-12 06:42
 categories: [note]
 tags: [github]
 copyright: true

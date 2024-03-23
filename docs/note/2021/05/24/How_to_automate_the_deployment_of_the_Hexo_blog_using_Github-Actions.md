@@ -1,6 +1,6 @@
 ---
 title: 如何使用 Github+Actions 实现 Hexo 博客自动化部署
-date: 2021-05-24 20:27:32
+date: 2021-05-24 20:27
 categories: [note]
 tags: [Actions,github,CI/CD]
 ---

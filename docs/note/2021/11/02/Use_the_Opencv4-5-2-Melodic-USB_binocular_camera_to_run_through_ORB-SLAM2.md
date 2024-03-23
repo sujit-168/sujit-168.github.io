@@ -1,6 +1,6 @@
 ---
 title: 用 Opencv4.5.2+Melodic+USB 双目摄像头跑通 ORB-SLAM2
-date: 2021-11-02 11:00:12
+date: 2021-11-02 11:00
 categories: [note]
 tags: [Opencv4.5.2,ORB-SLAM2,Melodic]
 copyright: true

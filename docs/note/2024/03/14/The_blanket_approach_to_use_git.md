@@ -1,6 +1,6 @@
 ---
 title: Git 食用的一揽子方法
-date: 2024-03-14 11:31:20
+date: 2024-03-14 11:31
 isTop: True
 categories: [note]
 tags: [Git]

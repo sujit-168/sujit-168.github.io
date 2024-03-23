@@ -1,6 +1,6 @@
 ---
 title: 如何解决 SSH 免密连接 Github 的连接超时问题
-date: 2024-02-23 15:28:37
+date: 2024-02-23 15:28
 categories: [note]
 tags: [Git]
 copyright: true

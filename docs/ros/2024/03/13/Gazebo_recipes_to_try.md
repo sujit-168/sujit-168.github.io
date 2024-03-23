@@ -1,6 +1,6 @@
 ---
 title: Gazebo 尝鲜食谱
-date: 2024-03-13 19:10:23
+date: 2024-03-13 19:10
 categories: [ROS]
 tags: [ROS1,  Gazebo]
 copyright: true

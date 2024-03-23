@@ -1,6 +1,6 @@
 ---
 title: 我的博客创建之路
-date: 2020-04-16 13:22:24
+date: 2020-04-16 13:22
 categories: [note]
 tags: [hexo,yilia]
 copyright: true

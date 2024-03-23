@@ -8,7 +8,7 @@ showComment: false
 
 <img width=100% src="../public/img/svg/about-me-header.svg" alt="头部图" />
 <p align="center">
-  <a href="https://blog.sujit-168.top/" target="_blank" style="display: inline-block;">
+  <a href="https://blog.sujie-168.top/" target="_blank" style="display: inline-block;">
     <img alt="个人主页" src="https://img.shields.io/badge/个人站点-甦傑-lightblue?logo=blogger&logoColor=lightblue" />
   </a>&nbsp;
     <a href="https://github.com/sujit-168" target="_blank" style="display: inline-block;">
@@ -19,7 +19,7 @@ showComment: false
 ---
 - 👋 Hi, I'm sujit-168
 - 🔭 I'm currently working on robotic engineering development
-- 📫 How to reach me: [su2054551689@gmail.com](mailto:su2054551689@gmail.com)
+- 📫 How to reach me: [su2054552689@gmail.com](mailto:su2054552689@gmail.com)
 - 📖 My motto: “Take the bull by the horns and never give up.”
 ---
 

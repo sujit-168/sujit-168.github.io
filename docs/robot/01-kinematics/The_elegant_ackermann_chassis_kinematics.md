@@ -1,7 +1,7 @@
 ---
 title: 优雅的阿克曼底盘运动学
 date: 2024-03-16 17:34
-categories: [ros]
+categories: [robot]
 tags: [ROS,  Kinematics]
 copyright: true
 ---

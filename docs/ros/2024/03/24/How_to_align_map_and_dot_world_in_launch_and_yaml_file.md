@@ -8,6 +8,12 @@ copyright: true
 
 # 如何将 map 和 world 文件的坐标轴进行对齐
 
+::: tip TIPS
+
+1. 在建图过程中，假设你的 gazebo 中的世界坐标系是`world`，进行 slam 建图时的地图坐标系是`map`
+2. 在 `SLAM` 建图时，map_server 会以`机器人坐标系`下的`x`轴和`y`轴对齐为标准建立 map 坐标系。
+3. 如果你希望 gazebo 中的 `model_state` 与估算的 `odom 里程计`保证对齐时，则需要保证`world`坐标系下的`x`轴和`y`轴与`map`坐标系下的`x`轴和`y`轴对齐。
+:::
 
 ## Rviz 显示对齐后的模型
 
@@ -20,7 +26,7 @@ occupied_thresh: 0.65
 free_thresh: 0.196
 ```
 
-## .pgm 文件
+## 如何修改地图
 
 在`ROS`中，`.pgm`文件是 Rviz 显示地图时使用的文件，它保存了地图的像素信息。
 
@@ -54,7 +60,7 @@ map_server 导入旋转过后图片
 
 ## 如何检查
 
-### axes
+### 添加 axes
 
 选择 axes 类型
 ![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_align_map_and_dot_world_in_launch_and_yaml_file/20240324151932.png)
@@ -68,7 +74,10 @@ map_server 导入旋转过后图片
 可以看到，`axis` 参考为`map`,仍然符合预期。
 ![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_align_map_and_dot_world_in_launch_and_yaml_file/20240324152753.png)
 
+### world 与 map 对齐
 
-## 坐标系对齐
+![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_align_map_and_dot_world_in_launch_and_yaml_file/20240330103032.png)
+
+## 不同地图坐标系对齐
 
 ![](https://cn-sy1.rains3.com/dfdfgf/blog/How_to_align_map_and_dot_world_in_launch_and_yaml_file/align_the_origin_point_of_reading_picture.png)

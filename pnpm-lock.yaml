@@ -67,8 +67,8 @@ devDependencies:
     specifier: ^0.24.1
     version: 0.24.1(vue@3.4.15)
   vite:
-    specifier: ^4.5.2
-    version: 4.5.2
+    specifier: ^4.5.3
+    version: 4.5.3
   vitepress:
     specifier: 1.0.0-rc.20
     version: 1.0.0-rc.20(axios@1.6.7)(markdown-it-mathjax3@4.3.2)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)
@@ -3425,8 +3425,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /vite@4.5.2:
-    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
+  /vite@4.5.3:
+    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3495,7 +3495,7 @@ packages:
       markdown-it-mathjax3: 4.3.2
       minisearch: 6.3.0
       shiki: 0.14.7
-      vite: 4.5.2
+      vite: 4.5.3
       vue: 3.4.15
     transitivePeerDependencies:
       - '@algolia/client-search'

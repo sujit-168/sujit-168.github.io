@@ -3531,13 +3531,8 @@ packages:
       markdown-it-mathjax3: 4.3.2
       minisearch: 6.3.0
       shiki: 0.14.7
-<<<<<<< Updated upstream
       vite: 4.5.3
-      vue: 3.4.15
-=======
-      vite: 4.5.2
       vue: 3.4.21
->>>>>>> Stashed changes
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/node'

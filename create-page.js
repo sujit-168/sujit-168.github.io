@@ -26,7 +26,7 @@ for (const arg of args) {
       console.log("  -t, --tags <tags>  Comma-separated list of tags");
       console.log("  -s, --section <section>  Section name");
       console.log("  -h, --help  Display this help message");
-      console.log(`   usage:  npm run create-page "技术分享随笔" -s "ros" -c "技术" -t "JavaScript"`);
+      console.log(`   usage:  npm run create-page "技术分享随笔" -s "note" -c "note" -t "JavaScript"`);
       process.exit(0);
     } else if (option === "c" || option === "categories") {
       options.categories = value.split(",");

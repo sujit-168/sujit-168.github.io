@@ -7,6 +7,7 @@ const sync = fg.sync;
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/note/': getItemsByDate("note"),
   '/ros/': getItemsByDate("ros"),
+  'cpp' : getItemsByDate("cpp"),
   '/blender/': getItemsByDate("blender"),
 
   '/vslam/': getItems("vslam"),

@@ -5,7 +5,7 @@ editLink: false
 lastUpdated: false
 ---
 
-<img width=100% src="../public/img/svg/about-repos-header.svg" alt="头部图" />
+<img width=100% src="/img/svg/about-repos-header.svg" alt="头部图" />
 
 <div align="center">
     📝 <strong>用来记录、分享生活中给予自己内心感触的每个瞬间</strong>
@@ -33,4 +33,4 @@ lastUpdated: false
 
 :::
 
-<img width=100% src="../public/img/svg/about-footer.svg" alt="尾部图"/>
+<img width=100% src="/img/svg/about-footer.svg" alt="尾部图"/>

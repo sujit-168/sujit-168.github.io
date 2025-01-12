@@ -1,5 +1,5 @@
 ---
-title: three_major_feature_of_cpp 
+title: C++ 的三大特性
 date: 2025-01-12 16:50
 categories: [cpp]
 tags: [cpp]

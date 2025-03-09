@@ -167,7 +167,7 @@ p code {
   --vp-home-hero-name-background: linear-gradient(120deg, #bd34fe, #41d1ff)
 }
 
-@media (min-width: 960px) {
+/* @media (min-width: 960px) {
   .image-src {
       max-width:600px!important;
       max-height: 600px!important;
@@ -183,7 +183,7 @@ p code {
       top: 100%!important;
       left: 60%!important
   }
-}
+} */
 
 .VPFeatures.VPHomeFeatures .items {
   justify-content: space-around
@@ -319,14 +319,21 @@ p code {
   background-color: #ffffff80
 }
 
-
-/* Home background */
+/* applied to the index.md and the about.md */
 .Layout:has(.VPHome) {
-  background: url(https://pic.imgdb.cn/item/65bb94bf871b83018aff2291.png) no-repeat;
+  background: url('https://images.bddxg.top/blog/20250304094352631.webp') no-repeat;
   background-size: cover;
   color: var(--vp-c-text-dark-1);
   -webkit-user-select: none;
   user-select: none
+}
+
+.dark .Layout:has(.VPHome) {
+  background: url('https://images.bddxg.top/blog/202402152017530.webp') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  user-select: none;
+  transition: 0.5s ease-in-out;
 }
 
 :root {

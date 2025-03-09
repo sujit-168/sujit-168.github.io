@@ -8,6 +8,9 @@ hero:
   name: 甦傑的博客
   text: 折腾 && 好奇 && 分享
   tagline: 欢迎来到我的博客，在这里你可以看到很多内容
+  image:
+    src: /avatar.jpg
+    alt: Logo
   actions:
     - theme: brand
       text: 快速开始

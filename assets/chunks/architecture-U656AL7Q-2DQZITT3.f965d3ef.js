@@ -1,1 +1,0 @@
-import{A as p,e as a}from"./chunk-VKUCNK32.ce782075.js";import"./chunk-TGZYFRKZ.8a03a41d.js";import"../app.c456bc22.js";import"./framework.fcce45dc.js";import"./theme.e6b7d9d9.js";import"./md5.3e7612d8.js";export{p as ArchitectureModule,a as createArchitectureServices};

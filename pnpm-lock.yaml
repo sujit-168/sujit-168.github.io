@@ -72,14 +72,14 @@ importers:
         specifier: ^0.24.1
         version: 0.24.1(@babel/parser@7.24.1)(rollup@3.29.5)(vue@3.4.21)
       vite:
-        specifier: ^4.5.6
-        version: 4.5.6
+        specifier: ^4.5.14
+        version: 4.5.14
       vitepress:
         specifier: 1.0.0-rc.20
-        version: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
+        version: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
       vitepress-plugin-mermaid:
         specifier: ^2.0.16
-        version: 2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0))
+        version: 2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0))
       vue:
         specifier: ^3.4.15
         version: 3.4.21
@@ -1624,8 +1624,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.8:
-    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1720,8 +1720,8 @@ packages:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
     engines: {node: '>= 0.4'}
 
-  postcss@8.5.1:
-    resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
+  postcss@8.5.6:
+    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact@10.20.1:
@@ -1986,8 +1986,8 @@ packages:
     resolution: {integrity: sha512-jOWVmzVceKlVVdwjNSenT4PbGghU0SBIizAev8ofZVgivk/TVHXSbNL8LP6M3spZvkR9/QolkyJavGSX5Cs0UA==}
     engines: {node: '>=10'}
 
-  vite@4.5.6:
-    resolution: {integrity: sha512-ElBNuVvJKslxcfY2gMmae5IjaKGqCYGicCNZ+8R56sAznobeE3pI9ctzI17cBS/6OJh5YuQNMSN4BP4dRjugBg==}
+  vite@4.5.14:
+    resolution: {integrity: sha512-+v57oAaoYNnO3hIu5Z/tJRZjq5aHM2zDve9YZ8HngVHbhk66RStobhb1sqPMIPEleV6cNKYK4eGrAbE9Ulbl2g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2720,7 +2720,7 @@ snapshots:
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.0
 
   '@vue/compiler-dom@3.4.21':
     dependencies:
@@ -2736,7 +2736,7 @@ snapshots:
       '@vue/shared': 3.4.21
       estree-walker: 2.0.2
       magic-string: 0.30.8
-      postcss: 8.5.1
+      postcss: 8.5.6
       source-map-js: 1.2.0
 
   '@vue/compiler-ssr@3.4.21':
@@ -3915,7 +3915,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.8: {}
+  nanoid@3.3.11: {}
 
   node-fetch@2.7.0:
     dependencies:
@@ -3997,9 +3997,9 @@ snapshots:
 
   possible-typed-array-names@1.0.0: {}
 
-  postcss@8.5.1:
+  postcss@8.5.6:
     dependencies:
-      nanoid: 3.3.8
+      nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -4314,22 +4314,22 @@ snapshots:
 
   valid-data-url@3.0.1: {}
 
-  vite@4.5.6:
+  vite@4.5.14:
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.5.1
+      postcss: 8.5.6
       rollup: 3.29.5
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-plugin-mermaid@2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)):
+  vitepress-plugin-mermaid@2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)):
     dependencies:
       mermaid: 11.10.0
-      vitepress: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
+      vitepress: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
     optionalDependencies:
       '@mermaid-js/mermaid-mindmap': 9.3.0
 
-  vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0):
+  vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.22.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
@@ -4341,11 +4341,11 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 6.3.0
       shiki: 0.14.7
-      vite: 4.5.6
+      vite: 4.5.14
       vue: 3.4.21
     optionalDependencies:
       markdown-it-mathjax3: 4.3.2
-      postcss: 8.5.1
+      postcss: 8.5.6
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/node'

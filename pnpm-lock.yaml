@@ -17,8 +17,8 @@ importers:
         specifier: 2.4.31
         version: 2.4.31
       axios:
-        specifier: ^1.8.2
-        version: 1.8.2
+        specifier: ^1.12.0
+        version: 1.12.0
       blueimp-md5:
         specifier: ^2.19.0
         version: 2.19.0
@@ -76,10 +76,10 @@ importers:
         version: 5.4.20
       vitepress:
         specifier: 1.0.0-rc.20
-        version: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
+        version: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.12.0)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
       vitepress-plugin-mermaid:
         specifier: ^2.0.16
-        version: 2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0))
+        version: 2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.12.0)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0))
       vue:
         specifier: ^3.4.15
         version: 3.4.21
@@ -971,8 +971,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  axios@1.8.2:
-    resolution: {integrity: sha512-ls4GYBm5aig9vWx8AWDSGLpnpDQRtWAfrjU+EuytuODrFBkqesN2RkOQCBzrA1RQNHw1SmRMSDDDSwzNAYQ6Rg==}
+  axios@1.12.0:
+    resolution: {integrity: sha512-oXTDccv8PcfjZmPGlWsPSwtOJCZ/b6W5jAMCNcfwJbCzDckwG0jrYJFaWH1yvivfCXjVzV/SPDEhMB3Q+DSurg==}
 
   b-tween@0.3.3:
     resolution: {integrity: sha512-oEHegcRpA7fAuc9KC4nktucuZn2aS8htymCPcP3qkEGPqiBH+GfqtqoG2l7LxHngg6O0HFM7hOeOYExl1Oz4ZA==}
@@ -3200,13 +3200,13 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/integrations@10.9.0(axios@1.8.2)(focus-trap@7.5.4)(vue@3.4.21)':
+  '@vueuse/integrations@10.9.0(axios@1.12.0)(focus-trap@7.5.4)(vue@3.4.21)':
     dependencies:
       '@vueuse/core': 10.9.0(vue@3.4.21)
       '@vueuse/shared': 10.9.0(vue@3.4.21)
       vue-demi: 0.14.7(vue@3.4.21)
     optionalDependencies:
-      axios: 1.8.2
+      axios: 1.12.0
       focus-trap: 7.5.4
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -3291,7 +3291,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  axios@1.8.2:
+  axios@1.12.0:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.4
@@ -4804,21 +4804,21 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-plugin-mermaid@2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)):
+  vitepress-plugin-mermaid@2.0.16(mermaid@11.10.0)(vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.12.0)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)):
     dependencies:
       mermaid: 11.10.0
-      vitepress: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
+      vitepress: 1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.12.0)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
     optionalDependencies:
       '@mermaid-js/mermaid-mindmap': 9.3.0
 
-  vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.8.2)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0):
+  vitepress@1.0.0-rc.20(@algolia/client-search@4.22.1)(axios@1.12.0)(markdown-it-mathjax3@4.3.2)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.22.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)
       '@types/markdown-it': 13.0.7
       '@vue/devtools-api': 6.6.1
       '@vueuse/core': 10.9.0(vue@3.4.21)
-      '@vueuse/integrations': 10.9.0(axios@1.8.2)(focus-trap@7.5.4)(vue@3.4.21)
+      '@vueuse/integrations': 10.9.0(axios@1.12.0)(focus-trap@7.5.4)(vue@3.4.21)
       focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.3.0

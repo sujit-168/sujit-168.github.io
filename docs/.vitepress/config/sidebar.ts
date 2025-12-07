@@ -6,9 +6,9 @@ const sync = fg.sync;
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/note/': getItemsByDate("note"),
-  '/ros/': getItemsByDate("ros"),
-  'cpp' : getItemsByDate("cpp"),
-  '/blender/': getItemsByDate("blender"),
+  '/ros/': getItemsByDate('ros'),
+  '/cpp/': getItemsByDate('cpp'),
+  '/blender/': getItemsByDate('blender'),
 
   '/vslam/': getItems("vslam"),
   '/robot/': getItems("robot"),
@@ -91,16 +91,15 @@ function getItemsByDate (path: string) {
       items: topArticleItems,
       collapsed: false,
     });
+  }
 
-    // 将最近年份分组展开
-    yearGroups[1].collapsed = false;
-  } else {
-    // 将最近年份分组展开
+  // 将最近年份分组展开
+  if (yearGroups.length > 0) {
     yearGroups[0].collapsed = false;
   }
 
-  // 添加序号
-  addOrderNumber(yearGroups);
+  // 添加序号（注意：为避免 SSR/CSR mismatch 暂时关闭）
+  // addOrderNumber(yearGroups);
   return yearGroups;
 }
 
@@ -155,8 +154,8 @@ function getItems (path: string) {
     items = [];
   })
 
-  // 添加序号
-  addOrderNumber(groups);
+  // 添加序号（注意：为避免 SSR/CSR mismatch 暂时关闭）
+  // addOrderNumber(groups);
   return groups;
 }
 

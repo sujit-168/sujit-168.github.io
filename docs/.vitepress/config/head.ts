@@ -4,7 +4,10 @@ import { metaData } from './constants';
 export const head: HeadConfig[] = [
   ['link', { rel: 'icon', href: '/favicon.ico' }],
   ['meta', { name: 'author', content: 'sujie' }],
-  ['meta', { name: 'keywords', content: '甦傑的个人技术博客' }],
+  ['meta', { name: 'keywords', content: 'ROS, Gazebo, Slam, 机器人, 自动驾驶, 算法, 深度学习, C++, Python, Linux, 嵌入式' }],
+
+  ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.jpg' }],
+  ['script', { src: '/live2d.js' }],
 
   // get picture no referrer， such as aliyun-oss,  the follower code change " <meta name="referrer" content="no-referrer" /> " in .html file
   ['meta', { name:'referrer', content:'no-referrer'}],

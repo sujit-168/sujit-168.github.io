@@ -47,7 +47,7 @@ export default {
 
     // waline comment
     useWaline({
-      serverURL: 'https://waline-2762c66f0-sujit168s-projects.vercel.app/'
+      serverURL: 'https://waline-git-main-sujit168s-projects.vercel.app/'
     });
 
     // live 2D 

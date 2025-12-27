@@ -14,7 +14,11 @@ export default withMermaid(
     cleanUrls: true,
     lastUpdated: true, // 显示最后更新时间
 
-    head, // <head>内标签配置
+    // head, // <head>内标签配置
+    head: [
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.jpg' }],
+      ['script', { src: '/live2d.js' }],
+    ],
     markdown: markdown, // Markdown 配置
     vue: {
       template: {
@@ -34,6 +38,11 @@ export default withMermaid(
           priority: 0.8
         })
         return items
+      }
+    },
+    vite: {
+      ssr: {
+        noExternal: ['@waline/client', 'vitepress-theme-website']
       }
     }
   }),

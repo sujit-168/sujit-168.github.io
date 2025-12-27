@@ -10,6 +10,8 @@ import mediumZoom from 'medium-zoom';
 
 import './index.css';
 
+import { useLive2d, useWaline } from 'vitepress-theme-website'
+
 export default {
   ...DefaultTheme,
   Layout: MyLayout,
@@ -20,7 +22,7 @@ export default {
     // 全局挂载 API 接口
     ctx.app.config.globalProperties.$http = axios
     if (typeof window !== 'undefined') {
-        window.$api = api;
+      window.$api = api;
     }
 
     // register your custom global components
@@ -30,9 +32,9 @@ export default {
   setup() {
     const route = useRoute();
     const initZoom = () => {
-    //   mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); 
+      //   mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); 
 
-    // If you want to enable this for all images without explicitly adding , please enable the follow line
+      // If you want to enable this for all images without explicitly adding , please enable the follow line
       mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
     };
     onMounted(() => {
@@ -42,5 +44,31 @@ export default {
       () => route.path,
       () => nextTick(() => initZoom())
     );
+
+    // waline comment
+    useWaline({
+      serverURL: 'https://waline-2762c66f0-sujit168s-projects.vercel.app/'
+    });
+
+    // live 2D 
+    useLive2d({
+      enable: true,
+      model: {
+        url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json'
+      },
+      display: {
+        position: 'right',
+        width: '135px',
+        height: '300px',
+        xOffset: '35px',
+        yOffset: '5px'
+      },
+      mobile: {
+        show: true
+      },
+      react: {
+        opacity: 0.8
+      }
+    })
   },
 }

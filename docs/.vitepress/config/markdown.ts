@@ -8,6 +8,9 @@ export const markdown: MarkdownOptions = {
     dark: 'github-dark-dimmed'
   },
   lineNumbers: true, // 启用行号
+  image: {
+    lazyLoading: true
+  },
 
   config: (md) => {
     md.use(mathjax3);

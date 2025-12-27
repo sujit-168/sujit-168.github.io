@@ -54,7 +54,7 @@ export default {
     useLive2d({
       enable: true,
       model: {
-        url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json'
+        url: '/live2d/hibiki/hibiki.model.json'
       },
       display: {
         position: 'right',

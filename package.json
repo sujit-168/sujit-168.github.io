@@ -25,7 +25,7 @@
     "react-dom": "^18.2.0",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^5.4.21",
-    "vitepress": "1.0.0-rc.20",
+    "vitepress": "1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-theme-website": "^1.0.8",
     "vue": "^3.5.26"
@@ -44,7 +44,12 @@
     "overrides": {
       "@antv/g-base": "0.5.11",
       "@antv/path-util": "2.0.15",
-      "@antv/attr": "0.3.5"
+      "@antv/attr": "0.3.5",
+      "d3-color": ">=3.1.0",
+      "js-yaml": ">=3.14.2",
+      "brace-expansion": ">=2.0.2",
+      "esbuild": ">=0.25.0",
+      "vite": ">=5.4.21"
     },
     "peerDependencyRules": {
       "ignoreMissing": [

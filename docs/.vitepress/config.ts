@@ -4,12 +4,15 @@ import { metaData } from './config/constants';
 import { head } from './config/head';
 import { markdown } from './config/markdown';
 import { themeConfig } from './config/theme';
+import { genFeed } from './genFeed';
 
 export default withMermaid(
   defineConfig({
     lang: metaData.lang,
     title: metaData.title,
     description: metaData.description,
+
+    buildEnd: genFeed,
 
     cleanUrls: true,
     lastUpdated: true, // 显示最后更新时间

@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@antv/g2plot": "2.4.35",
-    "axios": "^1.13.2",
+    "axios": "^1.13.5",
     "blueimp-md5": "^2.19.0",
     "d3-color": "3.1.0",
     "dayjs": "^1.11.19",

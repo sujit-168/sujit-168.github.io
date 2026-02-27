@@ -16,7 +16,7 @@
     "@types/blueimp-md5": "^2.18.2",
     "@types/jquery": "^3.5.33",
     "feed": "^5.1.0",
-    "markdown-it": "^13.0.2",
+    "markdown-it": "^14.1.1",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-mathjax3": "^4.3.2",
     "medium-zoom": "^1.1.0",

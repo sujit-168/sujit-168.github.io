@@ -40,6 +40,9 @@ export default withMermaid(
       }
     },
     vite: {
+      build: {
+        target: 'esnext',
+      },
       ssr: {
         noExternal: ['@waline/client', 'vitepress-theme-website']
       }

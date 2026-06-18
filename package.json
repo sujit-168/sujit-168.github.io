@@ -24,7 +24,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "unplugin-vue-components": "^32.0.0",
-    "vite": "^6.4.2",
+    "vite": "^6.4.3",
     "vitepress": "1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-theme-website": "^1.0.8",
